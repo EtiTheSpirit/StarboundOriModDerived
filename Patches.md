@@ -2,6 +2,24 @@
 
 You can get information on upcoming patches in [Patches-Indev.md](https://github.com/XanTheDragon/StarboundOriModDerived/blob/master/Patches-Indev.md).
 
+# Version 1.4.4
+
+## Changes
+```diff
++ Appended "spiritguardianlight" item that can be handcrafted for 15 pixels + 10 plant fibre. This is a crafting item
++ Appended function to "spiritshard" item. Crafted with 10 spiritguardianlight. Used to create spiritbow, spiritdagger, spiritbroadsword, spiritshield, and lightvessel
++ Appended "lightvessel" item. This has no use for the moment, but will be used to craft end-game items.
++ Appended new sounds for Spirit Torches ripped from Ori.
++ Appended recipes for "spiritdagger" and "spiritshield" items.
++ Appended sounds for spiritshield.
+* Changed name of "Spirit Light" to "Spirit Torch"
+* Fixed indev value for shield health, it was way too high.
+* Fixed a bug causing the indev dagger item to be entirely broken
+```
+
+## Known Bugs
+ * None
+
 # Version 1.4.3c
 
 ## Changes
