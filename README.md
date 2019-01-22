@@ -1,6 +1,9 @@
 # StarboundOriModDerived
 A derived version of the Spirit Guardian mod on the Steam workshop.
 
+# How to get to mod files
+This mod can be found in `STEAM_DIRECTORY/steamapps/workshop/content/211820/1614494395/contents.pak` - Use the built in asset_unpacker.exe file (in starbound's win32 directory) to unpack this file and view the raw data.
+
 # How to download
 This is now on the Steam Workshop!
 
