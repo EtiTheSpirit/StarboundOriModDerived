@@ -2,6 +2,21 @@
 
 You can get information on upcoming patches in [Patches-Indev.md](https://github.com/XanTheDragon/StarboundOriModDerived/blob/master/Patches-Indev.md).
 
+#### NOTE: VERSION 1.4.5 HAS CHANGED THE SHIP TELEPORTER OBJECT. IF YOUR SHIP TELEPORTER HAS BEEN REPLACED WITH A STANDARD TELEPORTER VARIANT (NOT A SHIP TELEPORTER). IF YOU WANT THE SHIP TELEPORTER BACK, USE `/admin`, MOUSE OVER YOUR SHIP'S TELEPORTER, USE `/entityeval object.smash()`, SPAWN IN A SHIP TELEPORTER WITH `/spawnitem spiritguardianshipteleporter`, AND PLACE IT DOWN WHERE IT SHOULD GO.
+
+# Version 1.4.5
+
+## Changes
+```diff
++ Appended generic "spiritguardianteleporter' teleporter.
+* Fixed naming convention of ship teleporter. Ship teleporter has been renamed to "spiritguardianshipteleporter".
+```
+
+## Known Bugs
+ * Existing Ship teleporters are replaced with the standard variant. This cannot be fixed automatically. Notice has been added to the top of the page.
+
+---
+
 # Version 1.4.4
 
 ## Changes
@@ -19,6 +34,8 @@ You can get information on upcoming patches in [Patches-Indev.md](https://github
 
 ## Known Bugs
  * None
+ 
+ ---
 
 # Version 1.4.3c
 
