@@ -4,6 +4,20 @@ You can get information on upcoming patches in [Patches-Indev.md](https://github
 
 #### NOTE: VERSION 1.4.5 HAS CHANGED THE SHIP TELEPORTER OBJECT. IF YOUR SHIP TELEPORTER HAS BEEN REPLACED WITH A STANDARD TELEPORTER VARIANT (WHICH WILL ASK YOU TO BOOKMARK IT WHEN YOU FIRST USE IT), AND YOU WANT THE SHIP TELEPORTER BACK, USE `/admin`, MOUSE OVER YOUR SHIP'S TELEPORTER, USE `/entityeval object.smash()`, SPAWN IN A SHIP TELEPORTER WITH `/spawnitem spiritguardianshipteleporter`, AND PLACE IT DOWN WHERE IT SHOULD GO.
 
+
+# Version 1.4.6
+
+## Changes
+```diff
++ Appended new respawn effect. Please do not hesitate to give insight or criticism on the effect.
+* Updated race description on the character creation screen
+```
+
+## Known Bugs
+ * Existing Ship teleporters are replaced with the standard variant. This cannot be fixed automatically. Notice has been added to the top of the page.
+
+---
+
 # Version 1.4.5
 
 ## Changes
