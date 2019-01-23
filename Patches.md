@@ -10,6 +10,7 @@ You can get information on upcoming patches in [Patches-Indev.md](https://github
 ```diff
 + Appended generic "spiritguardianteleporter' teleporter.
 * Fixed naming convention of ship teleporter. Ship teleporter has been renamed to "spiritguardianshipteleporter".
+* Fixed the covers on spirit guardian beds
 ```
 
 ## Known Bugs
