@@ -14,7 +14,7 @@ You can get information on upcoming patches in [Patches-Indev.md](https://github
 ```
 
 ## Known Bugs
- * Existing Ship teleporters are replaced with the standard variant. This cannot be fixed automatically. Notice has been added to the top of the page.
+ * None
 
 ---
 
