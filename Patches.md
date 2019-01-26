@@ -20,6 +20,7 @@ Released 25 Jan 2019
  ---
 
 # Version 1.4.6
+Released 24 Jan 2019
 
 ## Changes
 ```diff
