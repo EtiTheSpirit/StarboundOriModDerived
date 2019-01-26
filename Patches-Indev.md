@@ -1,6 +1,6 @@
 # In-Dev Patch Notes
 
-This document goes over the upcoming changes that can come around at any time in the future. This document will **not** store changes that have already been added. If something disappears from the list, check an earlier version!
+This document goes over the upcoming changes that can come around at any time in the future. This document will **not** store changes that have already been added. If something disappears from the list, check the releases to see if it's been added! If I change my mind about releasing a feature it will be removed from this list without notice.
 
 ---
 
