@@ -4,6 +4,19 @@ You can get information on upcoming patches in [Patches-Indev.md](https://github
 
 #### NOTE: VERSION 1.4.5 HAS CHANGED THE SHIP TELEPORTER OBJECT. IF YOUR SHIP TELEPORTER HAS BEEN REPLACED WITH A STANDARD TELEPORTER VARIANT (WHICH WILL ASK YOU TO BOOKMARK IT WHEN YOU FIRST USE IT), AND YOU WANT THE SHIP TELEPORTER BACK, USE `/admin`, MOUSE OVER YOUR SHIP'S TELEPORTER, USE `/entityeval object.smash()`, SPAWN IN A SHIP TELEPORTER WITH `/spawnitem spiritguardianshipteleporter`, AND PLACE IT DOWN WHERE IT SHOULD GO.
 
+# Version 1.4.6a
+
+## Changes
+```diff
+* Fixed a critical bug causing all new profiles to fail due to the ship teleporter not being updated in the ship creation instructions.
+* Fixed a bug causing spirit guardians to take 100% precedence when spawing tenants[1]
+```
+`[1]` Reported by https://steamcommunity.com/workshop/filedetails/discussion/1614494395/1743356517523977015/#c1742232339933056535
+
+## Known Bugs
+ * None
+ 
+ ---
 
 # Version 1.4.6
 
