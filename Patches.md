@@ -5,6 +5,7 @@ You can get information on upcoming patches in [Patches-Indev.md](https://github
 #### NOTE: VERSION 1.4.5 HAS CHANGED THE SHIP TELEPORTER OBJECT. IF YOUR SHIP TELEPORTER HAS BEEN REPLACED WITH A STANDARD TELEPORTER VARIANT (WHICH WILL ASK YOU TO BOOKMARK IT WHEN YOU FIRST USE IT), AND YOU WANT THE SHIP TELEPORTER BACK, USE `/admin`, MOUSE OVER YOUR SHIP'S TELEPORTER, USE `/entityeval object.smash()`, SPAWN IN A SHIP TELEPORTER WITH `/spawnitem spiritguardianshipteleporter`, AND PLACE IT DOWN WHERE IT SHOULD GO.
 
 # Version 1.4.6a
+Released 25 Jan 2019
 
 ## Changes
 ```diff
@@ -32,6 +33,7 @@ You can get information on upcoming patches in [Patches-Indev.md](https://github
 ---
 
 # Version 1.4.5
+Release date not logged.
 
 ## Changes
 ```diff
@@ -46,6 +48,7 @@ You can get information on upcoming patches in [Patches-Indev.md](https://github
 ---
 
 # Version 1.4.4
+Release date not logged.
 
 ## Changes
 ```diff
@@ -66,6 +69,7 @@ You can get information on upcoming patches in [Patches-Indev.md](https://github
  ---
 
 # Version 1.4.3c
+Release date not logged.
 
 ## Changes
 ```diff
@@ -81,6 +85,7 @@ You can get information on upcoming patches in [Patches-Indev.md](https://github
  ---
  
 # Version 1.4.3b
+Release date not logged.
 
 ## Changes
 ```diff
@@ -96,6 +101,7 @@ You can get information on upcoming patches in [Patches-Indev.md](https://github
 ---
 
 # Version 1.4.3a
+Release date not logged.
 
 ## Changes
 ```diff
@@ -108,6 +114,7 @@ You can get information on upcoming patches in [Patches-Indev.md](https://github
 ---
 
 # Version 1.4.3
+Release date not logged.
 
 ## Changes
 ```diff
@@ -120,6 +127,7 @@ You can get information on upcoming patches in [Patches-Indev.md](https://github
 ---
 
 # Version 1.4.2d
+Release date not logged.
 
 ## Changes
 ```diff
@@ -133,6 +141,7 @@ You can get information on upcoming patches in [Patches-Indev.md](https://github
 ---
 
 # Version 1.4.2c
+Release date not logged.
 
 ## Changes
 ```diff
@@ -144,6 +153,7 @@ You can get information on upcoming patches in [Patches-Indev.md](https://github
 
 ---
 # Version 1.4.2b
+Release date not logged.
 
 ## Changes
 ```diff
@@ -155,6 +165,7 @@ You can get information on upcoming patches in [Patches-Indev.md](https://github
 
 ---
 # Version 1.4.2
+Release date not logged.
 
 ## Changes
 ```diff
@@ -167,6 +178,7 @@ You can get information on upcoming patches in [Patches-Indev.md](https://github
 
 ---
 # Version 1.4.1
+Release date not logged.
 
 ## Changes
 ```diff
