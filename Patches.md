@@ -4,6 +4,20 @@ You can get information on upcoming patches in [Patches-Indev.md](https://github
 
 #### NOTE: VERSION 1.4.5 HAS CHANGED THE SHIP TELEPORTER OBJECT. IF YOUR SHIP TELEPORTER HAS BEEN REPLACED WITH A STANDARD TELEPORTER VARIANT (WHICH WILL ASK YOU TO BOOKMARK IT WHEN YOU FIRST USE IT), AND YOU WANT THE SHIP TELEPORTER BACK, USE `/admin`, MOUSE OVER YOUR SHIP'S TELEPORTER, USE `/entityeval object.smash()`, SPAWN IN A SHIP TELEPORTER WITH `/spawnitem spiritguardianshipteleporter`, AND PLACE IT DOWN WHERE IT SHOULD GO.
 
+# Version 1.4.6b
+Released 26 Jan 2019
+
+## Changes
+```diff
+* Reduced Spirit Guardian tenant furnishing requirement to 9 (from 24)
+* Reduced Spirit Guardian tenant Tier 4 item requirement to 4 (from 6)
+```
+
+## Known Bugs
+ * None
+ 
+ ---
+
 # Version 1.4.6a
 Released 25 Jan 2019
 
