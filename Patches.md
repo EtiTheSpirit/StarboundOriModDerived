@@ -9,8 +9,8 @@ Released 11 Mar 2019
 
 ## Changes
 ```diff
-+ Added a special quest that will only appear on March 11 as a little joke + acknowledgement to Ori's birthday.
-+ Added a credits codex named spiritguardiancredits
++ Added a special quest that will only appear on March 11 as a little joke + acknowledgement to Ori's birthday. Questid is "march11"
++ Added a credits codex named "spiritguardiancredits"
 ```
 
 ## Known Bugs
