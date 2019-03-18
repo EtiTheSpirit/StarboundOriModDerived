@@ -9,6 +9,7 @@ Released 18 Mar 2019
 ```diff
 + Added Frackin Races support via external mod, submitted pull request for official implementation into FR.
 + Added Frackin Universe B.Y.O.S.
+* Changed mod ID from "Ori Mod" to "Ori Mod Redux" to ensure only the modern patches for ^ can be used.
 ```
 
 ## Known Bugs
