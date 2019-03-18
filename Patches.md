@@ -2,6 +2,19 @@
 
 You can get information on upcoming patches in [Patches-Indev.md](https://github.com/XanTheDragon/StarboundOriModDerived/blob/master/Patches-Indev.md).
 
+# Version 1.4.8a
+Released 18 Mar 2019 (Double release, see 1.4.8 below)
+
+## Changes
+```diff
+* Fixed a bug causing Spirit Light Essence to not be a default recipe.
+```
+
+## Known Bugs
+ * None
+ 
+ ---
+
 # Version 1.4.8
 Released 18 Mar 2019
 
@@ -10,20 +23,6 @@ Released 18 Mar 2019
 + Added Frackin Races support via external mod, submitted pull request for official implementation into FR.
 + Added Frackin Universe B.Y.O.S.
 * Changed mod ID from "Ori Mod" to "Ori Mod Redux" to ensure only the modern patches for ^ can be used.
-```
-
-## Known Bugs
- * None
- 
- ---
-
-# Version 1.4.6b
-Released 26 Jan 2019
-
-## Changes
-```diff
-* Reduced Spirit Guardian tenant furnishing requirement to 9 (from 24)
-* Reduced Spirit Guardian tenant Tier 4 item requirement to 4 (from 6)
 ```
 
 ## Known Bugs
@@ -44,6 +43,7 @@ Released 11 Mar 2019
  * None
  
  ---
+
 
 # Version 1.4.6b
 Released 26 Jan 2019
