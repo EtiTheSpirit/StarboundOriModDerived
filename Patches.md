@@ -2,6 +2,19 @@
 
 You can get information on upcoming patches in [Patches-Indev.md](https://github.com/XanTheDragon/StarboundOriModDerived/blob/master/Patches-Indev.md).
 
+# Version 1.4.8b
+Released 19 Mar 2019
+
+## Changes
+```diff
+* Changed race title from 'spiritguardian' to 'Spirit Guardian' (for compatibility with Frackin Races)
+```
+
+## Known Bugs
+ * None
+ 
+ ---
+
 # Version 1.4.8a
 Released 18 Mar 2019 (Double release, see 1.4.8 below)
 
