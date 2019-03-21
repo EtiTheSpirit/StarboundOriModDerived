@@ -1,0 +1,95 @@
+{
+  "itemName" : "spiritbow",
+  "price" : 1250,
+  "inventoryIcon" : "spiritbowicon.png",
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "tooltipKind" : "bow",
+  "category" : "bow",
+  "description" : "A bow wielded by spirits of Nibel. It feels like glass.",
+  "shortdescription" : "Spirit Bow",
+  "twoHanded" : true,
+  "itemTags" : ["weapon", "ranged", "bow"],
+
+  "radioMessagesOnPickup" : [ "pickupbow" ],
+
+  "level" : 1,
+
+  "animation" : "spiritbow.animation",
+  "animationParts" : {
+    "bow" : "spiritbow.png",
+    "bowFullbright" : "spiritbow.png"
+  },
+  "animationCustom" : {
+    "animatedParts" : { "parts" : {
+      "bow" : { "properties" : {
+        "offset" : [0.25, 0]
+      }},
+      "bowFullbright" : { "properties" : {
+        "offset" : [0.25, 0]
+      }}
+    }},
+    "sounds" : {
+      "draw" : [ "/sfx/gun/bow_draw1.ogg", "/sfx/gun/bow_draw2.ogg", "/sfx/gun/bow_draw3.ogg" ],
+      "release" : [ "/sfx/gun/bow_loose.ogg" ],
+      "perfectRelease" : [ "/sfx/gun/bow_loose_perfect.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/bow/bow.lua"],
+
+  "primaryAbilityType" : "spiritbowshot",
+  "primaryAbility" : { },
+
+  "altAbilityType" : "bowshot",
+  "altAbility" : {
+    "name" : "Spirit Shot",
+    "energyPerShot" : 150,
+    "drawSpeedMultiplier" : "constant",
+    "projectileType" : "spiritarrow",
+    "powerProjectileType" : "spiritarrow",
+    "projectileParameters" : {
+      "power" : 16,
+      "speed" : 100,
+      "actionOnReap" : [
+        {
+          "action" : "projectile",
+          "type" : "chargedspiritarrow",
+          "angleAdjust" : -20,
+          "inheritDamageFactor" : 0.5,
+          "inheritSpeedFactor" : 1
+        },
+        {
+          "action" : "projectile",
+          "type" : "chargedspiritarrow",
+          "angleAdjust" : -10,
+          "inheritDamageFactor" : 0.5,
+          "inheritSpeedFactor" : 1
+        },
+        {
+          "action" : "projectile",
+          "type" : "chargedspiritarrow",
+          "angleAdjust" : 0,
+          "inheritDamageFactor" : 0.5,
+          "inheritSpeedFactor" : 1
+        },
+        {
+          "action" : "projectile",
+          "type" : "chargedspiritarrow",
+          "angleAdjust" : 10,
+          "inheritDamageFactor" : 0.5,
+          "inheritSpeedFactor" : 1
+        },
+        {
+          "action" : "projectile",
+          "type" : "chargedspiritarrow",
+          "angleAdjust" : 20,
+          "inheritDamageFactor" : 0.5,
+          "inheritSpeedFactor" : 1
+        }
+      ]
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildbow.lua"
+}

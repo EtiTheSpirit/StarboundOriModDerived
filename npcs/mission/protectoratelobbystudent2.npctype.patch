@@ -1,0 +1,11 @@
+[
+  {
+    "op": "add",
+    "path": "/scriptConfig/dialog/converse/default/spiritguardian",
+    "value": [
+      "Soon you'll be the very first Light Spirit to obtain a Matter Manipulator! That's pretty big!",
+      "I hear that those Matter Manipulators can disassemble all kinds of materials.",
+      "If you get assigned to some distant world, don't forget you'll always have friends here on Earth!"
+    ]
+  }
+]

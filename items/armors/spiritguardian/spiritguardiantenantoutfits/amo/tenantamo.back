@@ -1,0 +1,31 @@
+{
+  "itemName" : "tenantamoback",
+  "price" : 0,
+  "inventoryIcon" : "icons.png:back",
+  "rarity" : "Rare",
+  "category" : "backwear",
+  "description" : "base",
+  "shortdescription" : "base back",
+  "tooltipKind" : "back",
+
+  "maleFrames" : "back.png",
+  "femaleFrames" : "back.png",
+  "maxStack" : 1,
+
+  "statusEffects" : [  ],
+
+  "colorOptions" : [
+    { "ffffff" : "ffffff" },
+    { "ffffff" : "ffffff" },
+    { "ffffff" : "ffffff" },
+    { "ffffff" : "ffffff" },
+    { "ffffff" : "ffffff" },
+    { "ffffff" : "ffffff" },
+    { "ffffff" : "ffffff" },
+    { "ffffff" : "ffffff" },
+    { "ffffff" : "ffffff" },
+    { "ffffff" : "ffffff" },
+    { "ffffff" : "ffffff" },
+    { "ffffff" : "ffffff" }
+  ]
+}

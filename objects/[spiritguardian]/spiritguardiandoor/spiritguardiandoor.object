@@ -1,0 +1,52 @@
+{
+  "objectName" : "spiritguardiandoor",
+  "colonyTags" : ["spiritguardian","door"],
+  "rarity" : "Common",
+  "category" : "door",
+  "price" : 95,
+  "description" : "A door based on the gates found in Nibel.",
+  "shortdescription" : "Nibel Gate",
+  "race" : "spiritguardian",
+  "apexDescription" : "This gate seems incredibly ancient.",
+  "avianDescription" : "This door seems incredibly tough.",
+  "floranDescription" : "Floran interested in stone door.",
+  "glitchDescription" : "Interested. This gate is very well ancient.",
+  "humanDescription" : "This door is very well made.",
+  "hylotlDescription" : "This door is ancient, yet still able to stand with ease.",
+  "novakidDescription" : "A sturdy stone door.",
+  "spiritguardianDescription" : "This door is based on the gates found throughout Nibel.",
+  "inventoryIcon" : "spiritguardiandooricon.png",
+  "tooltipKind" : "door",
+  "largeImage" : "spiritguardiandoor.png:right",
+  
+  "orientations" : [
+    {
+      "dualImage" : "spiritguardiandoor.png:default",
+      "imagePosition" : [-20, 0],
+      "renderLayer" : "Object+5",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ]
+    }
+  ],
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+  "animation" : "/objects/wired/door/door.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "open" : {
+        "pool" : [ "/sfx/objects/stonedoor_open.ogg" ],
+        "rangeMultiplier" : 0.5
+      },
+      "close" : {
+        "pool" : [ "/sfx/objects/stonedoor_close.ogg" ],
+        "rangeMultiplier" : 0.5
+      }
+    }
+  },
+  "animationParts" : {
+    "door" : "spiritguardiandoor.png"
+  },
+  "animationPosition" : [-20, 0],
+  "inputNodes" : [ [-1, 4] ],
+  "outputNodes" : [ [0, 0] ]
+}

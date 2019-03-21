@@ -1,0 +1,14 @@
+{
+  "itemName" : "spiritwood1",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "spiritwood1.png",
+  "description" : "Wood that is used for Spirit Guardian homes.",
+  "shortdescription" : "Spirit Wood Panelling",
+  "glitchDescription" : "Confused. These panels have a mysterious energy coming off of them...",
+  "floranDescription" : "Sstrange panels have energy flowing.",
+  "novakidDescription" : "These wood panels are mighty strange.",
+
+  "materialId" : 2801
+}

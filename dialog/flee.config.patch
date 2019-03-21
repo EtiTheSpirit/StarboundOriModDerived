@@ -1,0 +1,14 @@
+[
+	{
+		"op": "add",
+		"path": "/helpme/spiritguardian",
+		"value": {
+			"default": [
+				"I need help! I am being attacked!",
+				"I don't have a weapon!",
+				"I need help!",
+				"Where's help when you need it?! Anyone?!"
+			]
+		}
+	}
+]

@@ -1,0 +1,32 @@
+{
+  "objectName" : "spiritguardianancestraltree",
+  "colonyTags" : ["spiritguardian", "decorative"],
+  "rarity" : "Rare",
+  "category" : "decorative",
+  "lightColor" : [200, 235, 255],
+  "lightPosition" : [-1, 0],
+  "price" : 250,
+  "description" : "This Ancestral Tree marks the resting place of a Guardian Spirit.",
+  "shortdescription" : "Ancestral Tree",
+  "race" : "spiritguardian",
+  "apexDescription" : "This is the grave of a Spirit Guardian.",
+  "avianDescription" : "This Spirit has moved on, yet has left its mark here as this tree.",
+  "floranDescription" : "Glowy Sspirit rests here.",
+  "glitchDescription" : "Grief. This tree marks a grave belonging to a Spirit.",
+  "humanDescription" : "This tree has a light on top of it. It's quite peaceful.",
+  "hylotlDescription" : "The Spirit has passed on into the next life, leaving behind its power.",
+  "novakidDescription" : "This here tree used to be one of them friendly little Spirits.",
+  "spiritguardianDescription" : "Rest well, fellow Spirit. Perhaps I will see you one day.",
+  
+  "inventoryIcon" : "spiritguardianancestraltreeicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "spiritguardianancestraltree.png:<color>.<frame>", "fullbright" : true }, { "image" : "spiritguardianancestraltreelit.png:<color>.<frame>" } ],
+      "imagePosition" : [-16, -8],
+      "frames" : 8,
+      "animationCycle" : 2.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

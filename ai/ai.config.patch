@@ -1,0 +1,10 @@
+[{
+		"op" : "add",
+		"path" : "/species/spiritguardian",
+		"value" : {
+			"aiFrames" : "spiritguardianAI.png",
+			"portraitFrames" : "portraits/spiritguardianportrait.png",
+			"staticFrames" : "staticspiritguardian.png"	
+		}
+	}
+]

@@ -1,0 +1,17 @@
+[
+	{
+		"op": "add",
+		"path": "/initialquests/spiritguardian",
+		"value": [
+			"protectorate"
+		]
+	},
+	{
+		"op": "add",
+		"path": "/pronounGenders/spiritguardian",
+		"value": {
+			"male": "neutral",
+			"female": "neutral"
+		}
+	}
+]

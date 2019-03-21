@@ -1,0 +1,13 @@
+{
+	"frameGrid" : {
+		"size" : [42, 42],
+		"dimensions" : [4, 4],
+
+		"names" : [
+			["nearidle1", "nearraised1", "faridle1", "farraised1"],
+			["nearidle2", "nearraised2", "faridle2", "farraised2"],
+			["nearidle3", "nearraised3", "faridle3", "farraised3"],
+			["nearidle4", "nearraised4", "faridle4", "farraised4"]
+		]
+	}
+}

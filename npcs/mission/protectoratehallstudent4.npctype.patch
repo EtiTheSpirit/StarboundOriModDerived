@@ -1,0 +1,11 @@
+[
+  {
+    "op": "add",
+    "path": "/scriptConfig/dialog/converse/default/spiritguardian",
+    "value": [
+      "Hey <entityname>! I was wondering if you were going to show up or not.",
+      "You might want to set the best example for your kind in thousands of years.",
+      "You don't look half bad, for having just woken up."
+    ]
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "itemName" : "",
+  "price" : ,
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "",
+  "description" : "",
+  "shortdescription" : "",
+  "itemTags" : [ "reagent" ],
+  "learnBlueprintsOnPickup" : [  ]
+}

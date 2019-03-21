@@ -1,0 +1,40 @@
+{
+  "animatedParts" : {
+    "parts" : {
+      "bow" : {
+        "properties" : {
+          "centered" : true,
+          "image" : "<partImage>:<drawFrame>",
+          "transformationGroups" : ["weapon"]
+        }
+      },
+      "bowFullbright" : {
+        "properties" : {
+          "zLevel" : 1,
+          "centered" : true,
+          "fullbright" : true,
+          "image" : "<partImage>:<drawFrame>",
+          "transformationGroups" : ["weapon"]
+        }
+      }
+    }
+  },
+
+  "lights" : {
+    "glow" : {
+      "position" : [0, 2.0],
+      "color" : [50, 50, 160],
+      "transformationGroups" : ["weapon"]
+    }
+  },
+
+  "transformationGroups" : {
+    "weapon" : {}
+  },
+
+  "sounds" : {
+    "draw" : [ ],
+    "release" : [ ],
+    "perfectRelease" : [ ]
+  }
+}

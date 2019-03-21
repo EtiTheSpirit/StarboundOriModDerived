@@ -1,0 +1,15 @@
+"\"Spirits and Technology\" by Fen, 3151
+
+For millenia our technology on Nibel was solely powered by our connection to one-another - an energy we called \"Spirit Light\". When we first encountered The Protectorate some 300 Earth years ago, we learned that there was more than just our way of making tech: We were introduced to electronics, which carried concepts far beyond our current capabilities.
+
+Spirit Light is fairly hard to explain. It's like trying to describe how to feel a certain feeling: you can't.
+
+Our technology was powered by this energy with the assistance of ^#99BBFF;The Spirit Tree^reset;. Through this technology we created ways to become even more unified among ourselves, one great example of this unifying technology being ^#00EEFF;Spirit Wells^reset;.",
+
+"Protectorate technology, on the other hand, is quite a lot different than our own. When they were introduced to it, many Spirit Guardians caught interest in it, but were otherwise skeptical of its capabilities. After all, it defied the very nature of the Spirit-based tech they had worked with for thousands of years. Despite the mixed feelings, they were able to put that conflict behind themselves and come up with a compromise: they collectively sought to make a hybrid system between Spirit technology and Protectorate technology.",
+
+"To achieve this system, they used the same method the long-lost Gumon used to append Spirit Light into inanimate objects. By applying the same principles to electronics, they were able to create an interface to this technology that didn't involve the standard methods used for such electronics like a button touch screen, or radio. Rather, they were able to link the devices to their very souls.
+
+While for certain devices this attribute was completely unnecessary, this capability proved more than useful for interfacing with complex devices like a SAIL. The most prominent benefit is astonishing: a SAIL linked to its user could be instantly calibrated with near-perfect precision in virtually no time at all; a huge improvement from the long learning process that had to be performed by crew members.",
+
+"The hybrid technology we have today has gained traction even from those who are not Spirits. For some, it's the aesthetic of our devices. For others, it's the idea of being able to control the device with your mind (Which isn't as easy as most people think, unfortunately). Regardless of why people decided to use the tech, it has certainly gained traction and is seen as a valuable contribution to society in the eyes of most."

@@ -1,0 +1,21 @@
+[
+  { "op": "add", "path": "/kalaGift",
+    "value": [
+      [1, {
+          "pool": [
+            { "weight": 0.55, "pool": "tenantMoney" },
+            { "weight": 0.20, "pool": "healingItem" },
+            { "weight": 0.15, "pool": "thrownWeapon" },
+            { "weight": 0.05, "pool": "weapon" },
+            { "weight": 0.05, "pool": "shield" },
+            { "weight": 0.14, "pool": "costume" },
+            { "weight": 0.05, "item": [ "kalarapier", 1 ] },
+            { "weight": 0.005, "item": [ "kalastaff", 1 ] }
+          ],
+          "poolRounds": 1,
+          "allowDuplication": false
+        }
+      ]
+    ]
+  }
+]

@@ -1,0 +1,210 @@
+[
+	{
+		"op": "add",
+		"path": "/greeting/spiritguardian",
+		"value": {
+			"default": [
+				"Hiya!",
+				"What's up?",
+				"Need something?",
+				"Hello.",
+				"Yes?",
+				"You want to talk?"
+			]
+		}
+	},
+	//BELOW: GREETING OPERATIONS WHEN YOU ARE A SPIRIT GUARDIAN TALKING TO A CERTAIN RACE.
+	//To do: Make dialect more diverse + a bit more cohesive.
+	{
+		"op": "add",
+		"path": "/greeting/apex/spiritguardian",
+		"value": [
+			"Hello, spirit guardian.",
+			"You glow quite brightly. Are you bioluminescent?",
+			"Hello, spirit. I am relieved to see that you are not as aggressive as those Erchius ghosts..."
+		]
+	},
+	{
+		"op": "add",
+		"path": "/greeting/hylotl/spiritguardian",
+		"value": [
+			"Hello, spirit!",
+			"That glow of yours is so fascinating.",
+			"You seem like a nice fellow. Nice to meet you, spirit."
+		]
+	},
+	{
+		"op": "add",
+		"path": "/greeting/avian/spiritguardian",
+		"value": [
+			"You seem like you'd be lighter than air. Can you fly?",
+			"That glow feels as holy as the Sun.",
+			"Hiya, spirit!",
+			"Ruffle my feathers! Look at you, a friendly spirit!"
+		]
+	},
+	{
+		"op": "add",
+		"path": "/greeting/human/spiritguardian",
+		"value": [
+			"It must be so hard for you, having lost your world twice. We're in the same boat, friend ... At least, half of the same boat.",
+			"Hey there, spirit.",
+			"I ought to take you with me when I go explore, that glow is impressive. It'd be helpful in caves."
+		]
+	},
+	{
+		"op": "add",
+		"path": "/greeting/floran/spiritguardian",
+		"value": [
+			"Glowy spirit like plantsss?",
+			"Ssspirit one with nature... One with floran!",
+			"Floran glad to see spirit. Guardssss flowers.",
+			"Greetingsss. Floran welcome you."
+		]
+	},
+	{
+		"op": "add",
+		"path": "/greeting/glitch/spiritguardian",
+		"value": [
+			"Intrigue. A spirit?",
+			"Melancholy. Informed about occurrence on homeworld.",
+			"Happy. A spirit has come to visit. Welcome.",
+			"Uncertain. Spirit likely friendly."
+		]
+	},
+	{
+		"op": "add",
+		"path": "/greeting/novakid/spiritguardian",
+		"value": [
+			"Well I'll be. You emit quite the radiant energy with that there glow of yours!",
+			"Well hello there, partner! You don't quite look like we Novakid.",
+			"You don't seem to be made of the same star-stuff like us. What is that energy of yours made of?",
+			"Your glow is almost as good as mine! The name's <selfname>. Nice to meet ya."
+		]
+	},
+//BELOW: Testing this. EDIT: Failed.
+	{
+		"op": "add",
+		"path": "/greeting/fenerox",
+		"value": {
+			"spiritguardian": [
+				"Glowing person. Somewhat scared. Cautiously hopeful.",
+				"Light spirit. Quite optimistic.",
+				"Strange newcomer. Glows bright. Somewhat fearful.",
+				"Spirit. Intrigued. Somewhat alert."
+			]
+		}
+	},
+//BELOW: Throws an error in the console as there is no "fenerox" entry in the stock converse.config. HOWEVER: it IS located in fenerox.config.
+//	{
+//		"op": "add",
+//		"path": "/greeting/fenerox/spiritguardian",
+//		"value": [
+//			"Glowing person. Somewhat scared. Cautiously hopeful.",
+//			"Light spirit. Quite optimistic.",
+//			"Strange newcomer. Glows bright. Somewhat fearful.",
+//			"Spirit. Intrigued. Somewhat alert."
+//		]
+//	},
+	{
+	//BELOW: OPERATIONS WHEN YOU ARE ONE OF THE LISTED RACES, A SPIRIT GUARDIAN WILL SAY THE LISTED OPTIONS TO YOU.
+		"op": "add",
+		"path": "/converse/spiritguardian",
+		"value": {
+			"generic": [
+				"Hm?"
+			],
+			"default": [
+				"I don't think I've seen your type before.",
+				"I hope you don't mind me asking, but who are you?",
+				"Hello there.",
+				"You must be new around here.",
+				"We haven't met, I don't think."
+			],
+			"apex": [
+				"Miniknog? Is that some kind of drink?",
+				"I can't imagine being under the rule of a dictator.",
+				"Just hang in there. One day, your race will be free.",
+				"I wish there was something I could do to help."
+			],
+			"avian": [
+				"Kluex? Sorry, but I don't think I've heard of him.",
+				"I do hope that we can be allies.",
+				"Please excuse me for being wary, I'm just remembering stories...",
+				"It's a pleasure to meet you."
+			],
+			"floran": [
+				"You're a plant. ... Yet you eat meat...?",
+				"I hope that, despite our clear differences, we can still be allies.",
+				"We're not too different, since, biologically, we're both unisex, among other things.",
+				"I didn't think I'd see a plant that eats animals. To each their own, I guess."
+			],
+			"glitch": [
+				"I'm not quite fond of machines...",
+				"Respect all life. That's a valuable trait.",
+				"How do you guys eat or drink without short-circuiting?",
+				"I'm just going to be wary around you, if that's alright."
+			],
+			"human": [
+				"I've heard your kind are very destructive to nature... Pitiful.",
+				"Something your people should know is to respect nature.",
+				"I don't really feel comfortable being around you.",
+				"You should watch your back, human."
+			],
+			"hylotl": [
+				"It's refreshing to see someone with some sense.",
+				"It's a pleasure to meet you.",
+				"I've heard good things about Hylotls. I hope they're true.",
+				"Culture can be quite important, in my opinion."
+			],
+			"novakid": [
+				"So you guys are made of pure energy? Sounds kind of like us.",
+				"I didn't think I'd see any Novakid around here, given how rare you guys are.",
+				"I hadn't given too much thought to how you came to be.",
+				"I wonder if there's any other Novakid like you nearby."
+			],
+			"spiritguardian": [
+				"Good to know I'm not the only one that survived..",
+				"I think I remember you from back on Earth...",
+				"You must be going on a journey like Ori, huh?",
+				"Nice to see a fellow spirit! And a friendly one at that!"
+			],
+			"avali": [
+				"I've heard you guys have a harsh history. Hang in there.",
+				"How do you guys stand the cold so well?",
+				"I've never been one for augmentation or prosthetics."
+			],
+			"lucario": [
+				"You're a Pokemon, right?",
+				"Does your aura work similar to our lights?",
+				"Aura?... Hm.. I don't think we have that."
+			],
+			"lyceen": [
+				"I haven't seen a humanoid wolf before",
+				"It's interesting, seeing a new race for the first time.",
+				"I didn't think canines came in somewhat humanoid forms."
+			],
+			"kemono": [
+				"You guys are an interesting bunch.",
+				"Foxes were always pretty cute.",
+				"I'm wondering whether or not there's more of you guys around."
+			],
+			"familiar": [
+				"So, you glow too. Neat.",
+				"So we're not the only glowing animals after all.",
+				"I feel an odd presence from you.",
+				"What are you guys even made of?"
+			],
+			"dragon": [
+				"A... draconis, right? <selfname>, pleased to meet ya.",
+				"I didn't think dragons actually existed.",
+				"Do you breathe fire like in the stories of dragons I've heard of?"
+			],
+			"novali": [
+				"An avali... That glows?",
+				"How are you even possible?",
+				"You're made of plasma, just like the Novakid, yet you're an Avali..."
+			]
+		}
+	}
+]

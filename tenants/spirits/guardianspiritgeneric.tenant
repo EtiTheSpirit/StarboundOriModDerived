@@ -1,0 +1,30 @@
+{
+  "name": "spiritguardiangeneric",
+  "priority": 4,
+
+  "colonyTagCriteria": {
+    "light": 1,
+    "door": 1,
+    "spiritguardian": 9,
+	"commerce": 5,
+	"storage": 4,
+	"farm": 5,
+	"tier4": 4
+  },
+
+  "tenants": [
+    {
+      "spawn": "npc",
+      "species": "spiritguardian",
+      "level": 1,
+      "type": "spiritguardiangeneric",
+      "overrides": {
+       }
+     }
+   ],
+
+  "rent": {
+    "periodRange": [900.0, 1800.0],
+    "pool": "villagerGift"
+  }
+}

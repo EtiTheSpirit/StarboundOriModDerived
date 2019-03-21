@@ -1,0 +1,76 @@
+[
+  {
+    "op": "add",
+    "path": "/scriptConfig/dialog/crewmember/offer/spiritguardian",
+    "value": {
+      "default": [
+        "You and I would make a great duo, so would you like to lead the way for our journey together?",
+        "A life among the stars would be amazing... You just make it seem better...",
+        "I've been thinking it over, and I feel that the path to light, is you.",
+        "I believe there's strength in numbers, so will you let me join you?",
+        "I would like to travel if you, if you'd allow me."
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/dialog/crewmember/roleDescription/spiritguardian",
+    "value": {
+      "default": [
+        "Sorry if I got a bit carried away back there.",
+        "I promise you won't regret your decision!",
+        "Thank you. If you ever need me, I'm here.",
+        "I'll do the best I can to help you out!",
+        "Thanks. Any plans for the time being?"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/dialog/crewmember/respawned/spiritguardian",
+    "value": {
+      "default": [
+        "Me? Yea, I'm fine! I'm more worried about you, <entityname>!",
+        "I guess that didn't go as planned... Eheh...",
+        "Sorry I couldn't stay alive..",
+        "Dang it... Are you alright?",
+        "Gah! Are you alright?!"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/dialog/crewmember/unfollow/spiritguardian",
+    "value": {
+      "default": [
+        "Alright. I'll stay here and hold down the fort.",
+        "I trust you to know what you're doing. Just be safe, <entityname>, alright?",
+        "Please be careful. I don't want to have to worry about you."
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/dialog/crewmember/follow/spiritguardian",
+    "value": {
+      "default": [
+        "You need my help with something, <entityname>?",
+        "As long as I'm with you, I'll be alright.",
+        "You need my help? Alright, sweet!",
+        "I'll do my best to keep you safe!",
+        "Let's go, <entityname>!"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/dialog/crewmember/cantreach/spiritguardian",
+    "value": {
+      "default": [
+        "Please slow down. I'm not as fast as Eki!",
+        "I'll catch up with you, I promise!",
+        "Can you slow down a bit, please?"
+      ]
+    }
+  }
+]

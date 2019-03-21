@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "cobblestonematerial", "count" : 30 },
+    { "item" : "wire", "count" : 5 }
+  ],
+  "output" : { "item" : "spiritguardianshipdoor", "count" : 1 },
+  "groups" : [ "craftingfurniture2", "doors", "all" ]
+}

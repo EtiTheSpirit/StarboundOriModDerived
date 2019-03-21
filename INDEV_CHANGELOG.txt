@@ -1,0 +1,4 @@
+If you're viewing this, congratulations! You've found my indev changelog.
+Here, I store the changes I've made within my local copy of the mod so that I don't accidentally push something that's broken or incomplete.
+
+>>> You may find things mentioned in here that are nowhere to be seen even in newer versions. Chances are, cut content will be kept in this list on accident.

@@ -1,0 +1,18 @@
+{
+  "projectileName" : "spirittorpedo",
+  "image" : "spirittorpedo.png",
+  "animationCycle" : 0.3,
+  "lightColor" : [208, 242, 255],
+  "frameNumber" : 2,
+  "damageKindImage" : "icon.png",
+  "physics" : "boomerang",
+  "emitters" : [ "electricplasma", "defaultblue" ],
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/pulsecannonexplosion/pulsecannonexplosion.config"
+    }
+  ],
+  "damagePoly" : [ [-9, 0], [-6, -6], [0, -9], [6, -6], [9, 0], [6, 6], [0, 9], [-6, 6] ],
+  "damageKind" : "slash"
+}

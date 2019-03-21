@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "plantfibre", "count" : 30 },
+    { "item" : "fabric", "count" : 10 }
+  ],
+  "output" : { "item" : "spiritguardianbed", "count" : 1 },
+  "groups" : [ "craftingfurniture", "beds", "all" ]
+}

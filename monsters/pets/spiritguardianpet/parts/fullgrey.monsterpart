@@ -1,0 +1,8 @@
+{
+  "name" : "fullgrey",
+  "category" : "spiritguardianpet",
+  "type" : "body",
+  "frames" : {
+    "body" : "fullgrey.png"
+  }
+}

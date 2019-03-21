@@ -1,0 +1,9 @@
+ [
+  { "op" : "add", "path" : "/defaultCodexes/spiritguardian", "value" : [ "protectorate1", "protectorate2" ] },
+  { "op" : "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "chestspiritguardian" } },
+  { "op" : "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "spiritguardiandoor" } },
+  { "op" : "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "spiritguardiantable" } },
+  { "op" : "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "spiritguardianchair" } },
+  { "op" : "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "spiritguardianbed" } },
+  { "op" : "add", "path": "/deploymentConfig/scripts/-", "value": "/scripts/questAccessDeployment.lua" }
+ ]

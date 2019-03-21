@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 15 },
+	{ "item" : "plantfibre", "count" : 10 }
+  ],
+  "output" : {
+    "item" : "spiritguardianlight",
+    "count" : 1
+  },
+  "groups" : [ "plain", "all" ]
+}

@@ -1,0 +1,159 @@
+[
+  {
+    "op": "add",
+    "path": "/scriptConfig/merchant/categories/spiritguardian",
+    "value": [
+      "genericarmour",
+      "basicmerchant",
+      "spiritguardianfurniture",
+      "randomguns",
+      "randomswords",
+      "spiritguardianarmour",
+      "floraningredients"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/items/spiritguardian",
+    "value": [
+      [
+        0,
+        [
+          {
+            "head": [
+              {
+                "name": "spiritguardiannohead",
+                "parameters": {
+                  "colorIndex": 0
+                }
+              },
+              {
+                "name": "spiritguardiantier1head",
+                "parameters": {
+                  "colorIndex": 0
+                }
+              }
+            ],
+            "back": [
+              {
+                "name": "spiritguardian_tail1",
+                "parameters": {
+                  "colorIndex": [
+                    1,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9
+                  ]
+                }
+              },
+              {
+                "name": "spiritguardian_tail2",
+                "parameters": {
+                  "colorIndex": [
+                    1,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9
+                  ]
+                }
+              },
+              {
+                "name": "spiritguardian_tail3",
+                "parameters": {
+                  "colorIndex": [
+                    1,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9
+                  ]
+                }
+              },
+              {
+                "name": "spiritguardian_tail4",
+                "parameters": {
+                  "colorIndex": [
+                    1,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9
+                  ]
+                }
+              },
+              {
+                "name": "spiritguardian_tail5",
+                "parameters": {
+                  "colorIndex": [
+                    1,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9
+                  ]
+                }
+              }
+            ],
+            "chest": [
+              {
+                "name": "spiritguardiantier4chest",
+                "parameters": {
+                  "colorIndex": 0
+                }
+              },
+              {
+                "name": "spiritguardiantier1chest",
+                "parameters": {
+                  "colorIndex": 0
+                }
+              },
+              {
+                "name": "spiritguardiannochest",
+                "parameters": {
+                  "colorIndex": 0
+                }
+              }
+            ],
+            "legs": [
+              {
+                "name": "spiritguardiantier4pants",
+                "parameters": {
+                  "colorIndex": 0
+                }
+              },
+              {
+                "name": "spiritguardiantier1pants",
+                "parameters": {
+                  "colorIndex": 0
+                }
+              },
+              {
+                "name": "spiritguardiannolegs",
+                "parameters": {
+                  "colorIndex": 0
+                }
+              }
+            ]
+          }
+        ]
+      ]
+    ]
+  }
+]

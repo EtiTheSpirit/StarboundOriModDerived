@@ -1,0 +1,11 @@
+[
+  {
+    "op": "add",
+    "path": "/scriptConfig/dialog/converse/default/spiritguardian",
+    "value": [
+      "Not many Florans become Protectorsss. Glowy friend makes Floran feel better about it!",
+      "Floran curiouss about glowy friend's light.",
+      "Glowy friend lookss like fire. Glowy friend nicer than fire."
+    ]
+  }
+]

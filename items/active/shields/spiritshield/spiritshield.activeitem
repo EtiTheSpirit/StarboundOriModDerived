@@ -1,0 +1,60 @@
+{
+	"itemName" : "spiritshield",
+	"level" : 2,
+	"price" : 1100,
+	"maxStack" : 1,
+	"rarity" : "Common",
+	"category" : "shield",
+	"description" : "It feels a little like glass, and buzzes faintly.",
+	"shortdescription" : "Spirit Shield",
+	"tooltipKind" : "Shield",
+	"twoHanded" : false,
+	"itemTags" : ["shield"],
+
+	"inventoryIcon" : "spiritshield.png:nearidle1",
+
+	"animation" : "spiritshield.animation",
+	"animationParts" : {
+		"shield" : "spiritshield.png"
+	},
+	"animationCustom" : {
+		"sounds" : {
+			"raiseShield" : [ "/sfx/shield/spiritshield/seinGrenadeAimStartA.ogg", "/sfx/shield/spiritshield/seinGrenadeAimStartB.ogg", "/sfx/shield/spiritshield/seinGrenadeAimStartC.ogg" ],
+			"lowerShield" : [ "/sfx/shield/spiritshield/seinGrenadeAimStopA.ogg", "/sfx/shield/spiritshield/seinGrenadeAimStopB.ogg", "/sfx/shield/spiritshield/seinGrenadeAimStopC.ogg" ],
+			"perfectBlock" : [ "/sfx/shield/spiritshield/seinGrenadeBounceA.ogg", "/sfx/shield/spiritshield/seinGrenadeBounceB.ogg", "/sfx/shield/spiritshield/seinGrenadeBounceC.ogg" ],
+			"block" : [ "/sfx/shield/spiritshield/seinGrenadeBounceA.ogg", "/sfx/shield/spiritshield/seinGrenadeBounceB.ogg", "/sfx/shield/spiritshield/seinGrenadeBounceC.ogg" ],
+			"break" : [ "/sfx/shield/spiritshield/shieldBreakA.ogg", "/sfx/shield/spiritshield/shieldBreakB.ogg", "/sfx/shield/spiritshield/shieldBreakC.ogg" ],
+			"shieldBash" : [ "/sfx/shield/spiritshield/bashEndA.ogg", "/sfx/shield/spiritshield/bashEndB.ogg", "/sfx/shield/spiritshield/bashEndC.ogg" ]
+		}
+	},
+
+	"scripts" : ["/items/active/shields/shield.lua"],
+
+	"minActiveTime" : 0.2,
+
+	"forceWalk" : true,
+	"baseShieldHealth" : 25,
+	"cooldownTime" : 0.45,
+
+	"perfectBlockDirectives" : "?border=2;AACCFFFF;00000000",
+	"perfectBlockTime" : 0.2,
+
+	"knockback" : 10,
+	
+	"stances" : {
+		"idle" : {
+			"armRotation" : -90,
+			"shieldRotation" : 0,
+			"allowRotate" : false,
+			"allowFlip" : true
+		},
+		"raised" : {
+			"armRotation" : 0,
+			"shieldRotation" : 0,
+			"allowRotate" : false,
+			"allowFlip" : true
+		}
+	},
+
+	"builder" : "/items/buildscripts/buildunrandshield.lua"
+}

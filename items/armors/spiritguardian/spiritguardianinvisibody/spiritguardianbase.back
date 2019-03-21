@@ -1,0 +1,45 @@
+{
+  "itemName" : "spiritguardianinvisaback",
+  "price" : 0,
+  "inventoryIcon" : "icons.png:back",
+  "rarity" : "Rare",
+  "category" : "backwear",
+  "description" : "Makes your entire body invisible!",
+  "shortdescription" : "Invisible Back",
+  "tooltipKind" : "back",
+
+  "hideBody" : true,
+
+  "maleFrames" : "back.png",
+  "femaleFrames" : "back.png",
+  "maxStack" : 1,
+
+  "statusEffects" : [  ],
+
+  "colorOptions" : [
+    // White
+    { "ffca8a" : "f3f3f3", "e0975c" : "DADADA", "a85636" : "C6C6C6", "6f2919" : "A7A7A7" },
+    // BLACK
+    { "ffca8a" : "5c4b72", "e0975c" : "433753", "a85636" : "2e253a", "6f2919" : "1b1523" },
+    // GREY
+    { "ffca8a" : "bdbfca", "e0975c" : "a1a4b3", "a85636" : "898a92", "6f2919" : "737479" },
+    // WHITE
+    { "ffca8a" : "f3f3f3", "e0975c" : "DADADA", "a85636" : "C6C6C6", "6f2919" : "A7A7A7" },
+    // RED
+    { "ffca8a" : "db7a76", "e0975c" : "d1534d", "a85636" : "b93d38", "6f2919" : "a22d29" },
+    // ORANGE
+    { "ffca8a" : "f8b077", "e0975c" : "f69446", "a85636" : "df7a29", "6f2919" : "c8691d" },
+    // YELLOW
+    { "ffca8a" : "ffeda7", "e0975c" : "ffe374", "a85636" : "f6cc23", "6f2919" : "d0a700" },
+    // GREEN
+    { "ffca8a" : "b5d1b1", "e0975c" : "96be91", "a85636" : "739e6e", "6f2919" : "54894d" },
+    // BLUE
+    { "ffca8a" : "c6d9df", "e0975c" : "a6c3cc", "a85636" : "7ea6b3", "6f2919" : "6694a3" },
+    // PURPLE
+    { "ffca8a" : "e9d2f3", "e0975c" : "d5aae8", "a85636" : "b984d0", "6f2919" : "9c60b7" },
+    // PINK
+    { "ffca8a" : "f4deee", "e0975c" : "e8b7da", "a85636" : "d39ac2", "6f2919" : "c07ead" },
+    // BROWN
+    { "ffca8a" : "c5b298", "e0975c" : "b39977", "a85636" : "967951", "6f2919" : "876a43" }
+  ]
+}

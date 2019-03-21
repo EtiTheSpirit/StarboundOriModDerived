@@ -1,0 +1,25 @@
+{
+  "metadata" : {
+    "name" : "spiritguardiantree1",
+    "species" : "spiritguardian",
+    "rules" : [
+    ],
+    "anchor" : [ "spiritguardiantree1.json" ],
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 1,
+    "extendSurfaceFreeSpace" : 100,
+    "protected" : false
+  },
+
+  "parts" : [
+    {
+      "name" : "spiritguardiantree1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+
+      ],
+      "def" : [ "tmx", "spiritguardiantree1.json" ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "projectileName" : "chargedspiritarrow",
+  "physics" : "arrownosticky",
+  "image" : "chargedspiritarrow.png",
+  "animationCycle" : 0.25,
+  "pointLight" : true,
+  "lightColor" : [245, 234, 45],
+  "frameNumber" : 1,
+  "emitters" : [ ],
+//  "emitters" : [ "lighttrailfast" ],
+  "damageKindImage" : "icon.png",
+  "timeToLive" : 10,
+  "damagePoly" : [ [8, -0.2], [8.5, -0.2], [8.5, 0.2], [8, 0.2] ],
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/arrowexplosion/arrowexplosion.config"
+    }
+  ],
+  "power" : 20,
+  "knockback" : 20,
+  "knockbackDirectional" : true,
+  "damageKind" : "bow"
+}

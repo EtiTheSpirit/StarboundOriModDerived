@@ -1,0 +1,227 @@
+[
+  {
+    "op": "add",
+    "path": "/spiritguardianarmour",
+    "value": [
+      [ 0, [
+          { "item": { "name": "spiritguardiantier1chest" }, "rarity": 0.1 },
+          { "item": { "name": "spiritguardiantier1head" }, "rarity": 0.1 },
+          { "item": { "name": "spiritguardiantier1pants" }, "rarity": 0.1 }
+        ] ],
+      [ 1.9, [
+          { "item": { "name": "spiritguardiantier1chest" }, "rarity": 0.1 },
+          { "item": { "name": "spiritguardiantier1head" }, "rarity": 0.1 },
+          { "item": { "name": "spiritguardiantier1pants" }, "rarity": 0.1 },
+          { "item": { "name": "spiritguardiantier2chest" }, "rarity": 0.1 },
+          { "item": { "name": "spiritguardiantier2head" }, "rarity": 0.1 },
+          { "item": { "name": "spiritguardiantier2pants" }, "rarity": 0.1 }
+        ] ],
+      [ 2.9, [
+          { "item": { "name": "spiritguardiantier1chest" }, "rarity": 0.1 },
+          { "item": { "name": "spiritguardiantier1head" }, "rarity": 0.1 },
+          { "item": { "name": "spiritguardiantier1pants" }, "rarity": 0.1 },
+          { "item": { "name": "spiritguardiantier2chest" }, "rarity": 0.1 },
+          { "item": { "name": "spiritguardiantier2head" }, "rarity": 0.1 },
+          { "item": { "name": "spiritguardiantier2pants" }, "rarity": 0.1 },
+          { "item": { "name": "spiritguardiantier3chest" }, "rarity": 0.1 },
+          { "item": { "name": "spiritguardiantier3head" }, "rarity": 0.1 },
+          { "item": { "name": "spiritguardiantier3pants" }, "rarity": 0.1 }
+        ] ],
+      [ 3.9, [
+          { "item": { "name": "spiritguardiantier1chest" }, "rarity": 0.1 },
+          { "item": { "name": "spiritguardiantier1head" }, "rarity": 0.1 },
+          { "item": { "name": "spiritguardiantier1pants" }, "rarity": 0.1 },
+          { "item": { "name": "spiritguardiantier2chest" }, "rarity": 0.1 },
+          { "item": { "name": "spiritguardiantier2head" }, "rarity": 0.1 },
+          { "item": { "name": "spiritguardiantier2pants" }, "rarity": 0.1 },
+          { "item": { "name": "spiritguardiantier3chest" }, "rarity": 0.1 },
+          { "item": { "name": "spiritguardiantier3head" }, "rarity": 0.1 },
+          { "item": { "name": "spiritguardiantier3pants" }, "rarity": 0.1 },
+          { "item": { "name": "spiritguardiantier4chest" }, "rarity": 0.1 },
+          { "item": { "name": "spiritguardiantier4head" }, "rarity": 0.1 },
+          { "item": { "name": "spiritguardiantier4pants" }, "rarity": 0.1 }
+        ] ],
+      [ 4.9, [
+          { "item": { "name": "spiritguardiantier1chest" }, "rarity": 0.1 },
+          { "item": { "name": "spiritguardiantier1head" }, "rarity": 0.1 },
+          { "item": { "name": "spiritguardiantier1pants" }, "rarity": 0.1 },
+          { "item": { "name": "spiritguardiantier2chest" }, "rarity": 0.1 },
+          { "item": { "name": "spiritguardiantier2head" }, "rarity": 0.1 },
+          { "item": { "name": "spiritguardiantier2pants" }, "rarity": 0.1 },
+          { "item": { "name": "spiritguardiantier3chest" }, "rarity": 0.1 },
+          { "item": { "name": "spiritguardiantier3head" }, "rarity": 0.1 },
+          { "item": { "name": "spiritguardiantier3pants" }, "rarity": 0.1 },
+          { "item": { "name": "spiritguardiantier4chest" }, "rarity": 0.1 },
+          { "item": { "name": "spiritguardiantier4head" }, "rarity": 0.1 },
+          { "item": { "name": "spiritguardiantier4pants" }, "rarity": 0.1 },
+          { "item": { "name": "spiritguardiantier5achest" }, "rarity": 0.1 },
+          { "item": { "name": "spiritguardiantier5ahead" }, "rarity": 0.1 },
+          { "item": { "name": "spiritguardiantier5apants" }, "rarity": 0.1 },
+          { "item": { "name": "spiritguardiantier5mchest" }, "rarity": 0.1 },
+          { "item": { "name": "spiritguardiantier5mhead" }, "rarity": 0.1 },
+          { "item": { "name": "spiritguardiantier5mpants" }, "rarity": 0.1 },
+          { "item": { "name": "spiritguardiantier5schest" }, "rarity": 0.1 },
+          { "item": { "name": "spiritguardiantier5shead" }, "rarity": 0.1 },
+          { "item": { "name": "spiritguardiantier5spants" }, "rarity": 0.1 }
+        ]
+      ]
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/spiritguardianfurniture",
+    "value": [
+      [ 0, [
+          { "item": { "name": "chestspiritguardian" }, "rarity": 0.06 },
+          { "item": { "name": "spiritguardiandoor" }, "rarity": 0.06 },
+          { "item": { "name": "spiritguardianchair" }, "rarity": 0.06 },
+          { "item": { "name": "spiritguardianbed" }, "rarity": 0.06 },
+          { "item": { "name": "spiritguardiantable" }, "rarity": 0.06 },
+          { "item": { "name": "spiritguardianbannerlarge" }, "rarity": 0.06 },
+          { "item": { "name": "spiritguardianbannersmall" }, "rarity": 0.06 },
+          { "item": { "name": "spirittreetorch" }, "rarity": 0.06 }
+        ]
+      ]
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/spiritguardianmedicine",
+    "value": [
+      [ 0, [
+          { "item": { "name": "salve" }, "rarity": 0.3 },
+          { "item": { "name": "bandage" }, "rarity": 0.3 },
+          { "item": { "name": "bottledhealingwater" }, "rarity": 0.3 },
+          { "item": { "name": "grassremedy" }, "rarity": 0.3 },
+          { "item": { "name": "medkit" }, "rarity": 0.3 },
+          { "item": { "name": "nanowrap" }, "rarity": 0.3 },
+          { "item": { "name": "redstim" }, "rarity": 0.3 },
+          { "item": { "name": "synthesisstim" }, "rarity": 0.3 }
+        ]
+      ]
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/spiritguardianallingredients",
+    "value": [
+      [ 0, [
+      { "item" : { "name" : "potato" }, "rarity" : 0.05 },
+      { "item" : { "name" : "avesmingo" }, "rarity" : 0.05 },
+      { "item" : { "name" : "banana" }, "rarity" : 0.05 },
+      { "item" : { "name" : "wheat" }, "rarity" : 0.05 },
+      { "item" : { "name" : "eggshoot" }, "rarity" : 0.05 },
+      { "item" : { "name" : "rawbacon" }, "rarity" : 0.05 },
+      { "item" : { "name" : "grapes" }, "rarity" : 0.05 },
+      { "item" : { "name" : "kiwi" }, "rarity" : 0.05 },
+      { "item" : { "name" : "redapple" }, "rarity" : 0.05 },
+      { "item" : { "name" : "sugar" }, "rarity" : 0.05 },
+      { "item" : { "name" : "carrot" }, "rarity" : 0.05 },
+      { "item" : { "name" : "neonmelon" }, "rarity" : 0.05 },
+      { "item" : { "name" : "pineapple" }, "rarity" : 0.05 },
+      { "item" : { "name" : "bottledwater" }, "rarity" : 0.05 },
+      { "item" : { "name" : "milk" }, "rarity" : 0.05 },
+      { "item" : { "name" : "wartweed" }, "rarity" : 0.05 },
+      { "item" : { "name" : "tomato" }, "rarity" : 0.05 },
+      { "item" : { "name" : "beakseed" }, "rarity" : 0.05 },
+      { "item" : { "name" : "feathercrown" }, "rarity" : 0.05 },
+      { "item" : { "name" : "pearlpea" }, "rarity" : 0.05 },
+      { "item" : { "name" : "corn" }, "rarity" : 0.05 },
+      { "item" : { "name" : "egg" }, "rarity" : 0.05 },
+      { "item" : { "name" : "rawfish" }, "rarity" : 0.05 },
+      { "item" : { "name" : "rawtentacle" }, "rarity" : 0.05 },
+      { "item" : { "name" : "alienmeat" }, "rarity" : 0.05 },
+      { "item" : { "name" : "rawribmeat" }, "rarity" : 0.05 },
+      { "item" : { "name" : "boneboo" }, "rarity" : 0.05 },
+      { "item" : { "name" : "oculemon" }, "rarity" : 0.05 },
+      { "item" : { "name" : "pussplum" }, "rarity" : 0.05 },
+      { "item" : { "name" : "chili" }, "rarity" : 0.05 },
+      { "item" : { "name" : "toxictop" }, "rarity" : 0.05 },
+      { "item" : { "name" : "automato" }, "rarity" : 0.05 },
+      { "item" : { "name" : "currentcorn" }, "rarity" : 0.05 },
+      { "item" : { "name" : "diodia" }, "rarity" : 0.05 },
+      { "item" : { "name" : "boltbulb" }, "rarity" : 0.05 },
+      { "item" : { "name" : "rice" }, "rarity" : 0.05 },
+      { "item" : { "name" : "bread" }, "rarity" : 0.05 },
+      { "item" : { "name" : "coralcreep" }, "rarity" : 0.05 },
+      { "item" : { "name" : "dirturchin" }, "rarity" : 0.05 },
+      { "item" : { "name" : "reefpod" }, "rarity" : 0.05 }
+        ]
+      ]
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/spiritguardianlibrary",
+    "value": [
+      [ 0, [
+      { "item" : { "name" : "apexhistory1-codex" }, "rarity" : 0.05 },
+      { "item" : { "name" : "apexhistory2-codex" }, "rarity" : 0.05 },
+      { "item" : { "name" : "apexhistory3-codex" }, "rarity" : 0.05 },
+      { "item" : { "name" : "apexhistory4-codex" }, "rarity" : 0.05 },
+      { "item" : { "name" : "apexhistory5-codex" }, "rarity" : 0.05 },
+      { "item" : { "name" : "apexhistory6-codex" }, "rarity" : 0.05 },
+      { "item" : { "name" : "apexhistory7-codex" }, "rarity" : 0.05 },
+      { "item" : { "name" : "apexhistory8-codex" }, "rarity" : 0.05 },
+      { "item" : { "name" : "apexhistory9-codex" }, "rarity" : 0.05 },
+      { "item" : { "name" : "apexhistory10-codex" }, "rarity" : 0.05 },
+      { "item" : { "name" : "apexspace1-codex" }, "rarity" : 0.05 },
+      { "item" : { "name" : "avianhistory1-codex" }, "rarity" : 0.05 },
+      { "item" : { "name" : "avianhistory2-codex" }, "rarity" : 0.05 },
+      { "item" : { "name" : "avianhistory3-codex" }, "rarity" : 0.05 },
+      { "item" : { "name" : "avianhistory4-codex" }, "rarity" : 0.05 },
+      { "item" : { "name" : "avianhistory5-codex" }, "rarity" : 0.05 },
+      { "item" : { "name" : "avianhistory6-codex" }, "rarity" : 0.05 },
+      { "item" : { "name" : "avianhistory7-codex" }, "rarity" : 0.05 },
+      { "item" : { "name" : "avianhistory8-codex" }, "rarity" : 0.05 },
+      { "item" : { "name" : "avianhistory9-codex" }, "rarity" : 0.05 },
+      { "item" : { "name" : "floranhistory1-codex" }, "rarity" : 0.05 },
+      { "item" : { "name" : "floranhistory2-codex" }, "rarity" : 0.05 },
+      { "item" : { "name" : "floranhistory3-codex" }, "rarity" : 0.05 },
+      { "item" : { "name" : "floranhistory4-codex" }, "rarity" : 0.05 },
+      { "item" : { "name" : "floranhistory5-codex" }, "rarity" : 0.05 },
+      { "item" : { "name" : "floranhistory6-codex" }, "rarity" : 0.05 },
+      { "item" : { "name" : "floranhistory7-codex" }, "rarity" : 0.05 },
+      { "item" : { "name" : "floranhistory8-codex" }, "rarity" : 0.05 },
+      { "item" : { "name" : "floranhistory9-codex" }, "rarity" : 0.05 },
+      { "item" : { "name" : "floranhistory10-codex" }, "rarity" : 0.05 },
+      { "item" : { "name" : "glitchhistory1-codex" }, "rarity" : 0.05 },
+      { "item" : { "name" : "glitchhistory2-codex" }, "rarity" : 0.05 },
+      { "item" : { "name" : "glitchhistory3-codex" }, "rarity" : 0.05 },
+      { "item" : { "name" : "glitchhistory4-codex" }, "rarity" : 0.05 },
+      { "item" : { "name" : "glitchhistory5-codex" }, "rarity" : 0.05 },
+      { "item" : { "name" : "glitchhistory6-codex" }, "rarity" : 0.05 },
+      { "item" : { "name" : "glitchhistory7-codex" }, "rarity" : 0.05 },
+      { "item" : { "name" : "glitchhistory8-codex" }, "rarity" : 0.05 },
+      { "item" : { "name" : "glitchhistory9-codex" }, "rarity" : 0.05 },
+      { "item" : { "name" : "humanhistory1-codex" }, "rarity" : 0.05 },
+      { "item" : { "name" : "humanhistory2-codex" }, "rarity" : 0.05 },
+      { "item" : { "name" : "humanhistory3-codex" }, "rarity" : 0.05 },
+      { "item" : { "name" : "humanhistory4-codex" }, "rarity" : 0.05 },
+      { "item" : { "name" : "humanhistory5-codex" }, "rarity" : 0.05 },
+      { "item" : { "name" : "humanhistory6-codex" }, "rarity" : 0.05 },
+      { "item" : { "name" : "humanhistory7-codex" }, "rarity" : 0.05 },
+      { "item" : { "name" : "humanhistory8-codex" }, "rarity" : 0.05 },
+      { "item" : { "name" : "humanhistory9-codex" }, "rarity" : 0.05 },
+      { "item" : { "name" : "humanhistory10-codex" }, "rarity" : 0.05 },
+      { "item" : { "name" : "humanspace1-codex" }, "rarity" : 0.05 },
+      { "item" : { "name" : "hylotlhistory1-codex" }, "rarity" : 0.05 },
+      { "item" : { "name" : "hylotlhistory2-codex" }, "rarity" : 0.05 },
+      { "item" : { "name" : "hylotlhistory3-codex" }, "rarity" : 0.05 },
+      { "item" : { "name" : "hylotlhistory4-codex" }, "rarity" : 0.05 },
+      { "item" : { "name" : "hylotlhistory5-codex" }, "rarity" : 0.05 },
+      { "item" : { "name" : "hylotlhistory6-codex" }, "rarity" : 0.05 },
+      { "item" : { "name" : "hylotlhistory7-codex" }, "rarity" : 0.05 },
+      { "item" : { "name" : "hylotlhistory8-codex" }, "rarity" : 0.05 },
+      { "item" : { "name" : "hylotlspace1-codex" }, "rarity" : 0.05 },
+      { "item" : { "name" : "yolotlisdiary1-codex" }, "rarity" : 0.05 },
+      { "item" : { "name" : "yolotlisdiary2-codex" }, "rarity" : 0.05 },
+      { "item" : { "name" : "yolotlisdiary3-codex" }, "rarity" : 0.05 },
+      { "item" : { "name" : "yolotlisdiary4-codex" }, "rarity" : 0.05 },
+      { "item" : { "name" : "protectorate1-codex" }, "rarity" : 0.05 },
+      { "item" : { "name" : "protectorate2-codex" }, "rarity" : 0.05 }
+        ]
+      ]
+    ]
+  }
+]

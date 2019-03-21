@@ -1,0 +1,57 @@
+[
+	{
+		"op": "add",
+		"path": "/tagCriteria/spiritguardian",
+		"value": {
+			"default": [
+				"Something has been altered. Has someone been here...?",
+				"I hope someone hasn't been rummaging through my belongings...",
+				"Something's not right."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/enclosedArea/spiritguardian",
+		"value": {
+			"default": [
+				"Oh no! My home! It's been damaged. Please, help me repair this.",
+				"Oh.. What happened here? I must get this fixed immediately.",
+				"How did this happen!? ...Well, I suppose I should fix this."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/otherDeed/spiritguardian",
+		"value": {
+			"default": [
+				"Who is this? I .. did not intend to have other people living with me.",
+				"Why is there another person here? This is my home; I do not wish to share it!",
+				"I don't want someone else here. Would you please move this other person out?"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/severe/spiritguardian",
+		"value": {
+			"default": [
+				"This home is all but a happy one. I may as well find another place to live.",
+				"There's definitely other homes out there better than this one. I cannot remain here for much longer!",
+				"This home, it's horrible! Why have the conditions come to be this way?"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/final/spiritguardian",
+		"value": {
+			"default": [
+				"That's it! I refuse to live in this decaying excuse of a home for any longer!",
+				"I cannot tolerate this anymore! Goodbye. I don't plan to return...",
+				"Why must I be expected to tolerate this? I'm leaving!"
+			]
+		}
+	},
+]

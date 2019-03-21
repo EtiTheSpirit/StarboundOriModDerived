@@ -1,0 +1,4 @@
+Forlorn armor needs to extend standard behavior.
+
+Append customzied animation frame system? That'd be cool.
+Particle FX to create the flaming haze? That'd be cooler.

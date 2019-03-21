@@ -1,0 +1,29 @@
+{
+  "objectName" : "spiritguardianbannersmall",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 50,
+  "printable" : false,
+  "description" : "A small Spirit Guardian wallbanner.",
+  "shortdescription" : "Small Spirit Guardian Wall Banner",
+  "race" : "spiritguardian",
+  "apexDescription" : "This banner is small...",
+  "avianDescription" : "A small banner",
+  "floranDescription" : "Floran likesss thisss.",
+  "glitchDescription" : "Charmed. A small Spirit Guardian banner...",
+  "humanDescription" : "The Spirit Guardian banner is quite lovely.",
+  "hylotlDescription" : "The banner is just lovely.",
+  "novakidDescription" : "This would look great in my house.",
+  "spiritguardianDescription" : "I'm surprised we've become so widespread we have our own banners now.",  
+  "inventoryIcon" : "spiritguardianbannersmallicon.png",
+  "orientations" : [
+    {
+      "image" : "spiritguardianbannersmall.png:<color>",
+      "imagePosition" : [2, -2],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : []
+    }
+  ]
+}

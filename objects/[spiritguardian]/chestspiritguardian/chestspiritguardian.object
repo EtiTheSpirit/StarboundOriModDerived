@@ -1,0 +1,49 @@
+{
+  "objectName" : "chestspiritguardian",
+  "colonyTags" : ["spiritguardian","storage"],
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+
+  "category" : "storage",
+  "price" : 70,
+  "description" : "A chest seemingly made of plant matter, but enhanced by something..",
+  "shortdescription" : "Faded Chest",
+  "race" : "spiritguardian",
+  "health" : 1.5,
+
+  "apexDescription" : "A old looking chest. I wonder what's inside?",
+  "avianDescription" : "This chest may look old, but the contents could be valuable.",
+  "floranDescription" : "Very old chesst, maybe holdsss treasure.",
+  "glitchDescription" : "Excited. An old looking chest, hopefully the contents are useful.",
+  "humanDescription" : "Finding a chest is always exciting.",
+  "hylotlDescription" : "This old looking chest could hold treasure.",
+  "novakidDescription" : "This ol' chest has seen better days.",
+  "spiritguardianDescription" : "This chest can only be found naturally next to Ancestrial Trees.",
+
+  "inventoryIcon" : "chestspiritguardianicon.png",
+  "orientations" : [
+    {
+      "image" : "chestspiritguardian.png:<color>.<key>",
+      "flipImages" : true,
+      "imagePosition" : [-8, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "left"
+    },
+    {
+      "image" : "chestspiritguardian.png:<color>.<key>",
+      "imagePosition" : [-8, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "right"
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/chest_small_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/chest_small_close.ogg" ],
+  "slotCount" : 64,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

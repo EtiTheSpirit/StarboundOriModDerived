@@ -1,0 +1,33 @@
+[
+	{
+		"op": "add",
+		"path": "/beacon/spiritguardian",
+		"value": {
+			"default": [
+				"Yes?",
+				"Hm?",
+				"Anything you need?",
+				"Need something?",
+				"You wanna talk?"
+			],
+			"spiritguardian": [
+				"You need something?",
+				"You want to talk?",
+				"What's up?",
+				"You need to talk about something?",
+				"Yes?"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/rent/spiritguardian",
+		"value": {
+			"default": [
+				"I got this for you. Thanks for all the help lately.",
+				"Here. I hope you make good use of this.",
+				"A gift for your kindness."
+			]
+		}
+	}
+]

@@ -1,0 +1,9 @@
+{
+  "name" : "spiritguardianpassiveevt",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : ["passiveevents.lua"],
+
+  "animationConfig" : "spiritguardianpassiveevt.animation"
+}

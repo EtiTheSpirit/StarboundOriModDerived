@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "plantfibre", "count" : 60 }
+  ],
+  "output" : { "item" : "spiritguardianchair", "count" : 1 },
+  "groups" : [ "craftingfurniture", "decoration", "all" ]
+}

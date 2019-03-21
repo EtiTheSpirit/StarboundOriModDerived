@@ -1,0 +1,14 @@
+{
+  "spirittails" : [
+    [1, {
+      "fill" : [
+        {"item" : [ "spiritguardiantail1", 1 ]},
+        {"item" : [ "spiritguardiantail2", 1 ]},
+        {"item" : [ "spiritguardiantail3", 1 ]},
+        {"item" : [ "spiritguardiantail4", 1 ]},
+        {"item" : [ "spiritguardiantail5", 1 ]}
+      ]
+    } ]
+  ]
+}
+

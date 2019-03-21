@@ -1,0 +1,24 @@
+{
+  "itemName" : "spirittails_bag",
+  "price" : 0,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "mysteriousReward",
+  "description" : "Contains Spirit Tails 1-5",
+  "shortdescription" : "Spirit Tails",
+  "twoHanded" : true,
+
+  "inventoryIcon" : "spirittailsicon.png",
+  "animation" : "spirittails.animation",
+  "animationCustom" : {},
+  "scripts" : ["spirittails.lua"],
+
+  "fireTime" : 2.0,
+  "fireOffset" : [1.0, 0.0],
+
+  "treasure" : {
+    "pool" : "spirittails",
+    "level" : 1
+  }
+}

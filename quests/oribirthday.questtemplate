@@ -1,0 +1,31 @@
+{
+  "id" : "march11",
+  "mainQuest" : false,
+  "title" : "There's An Event Today",
+  "prerequisites" : [ ],
+  "text" : "Did you forget about the event today? ^yellow;Today is ^cyan;Ori^yellow;'s birthday, ^red;and we're half way across the entire universe!^reset;
+  
+I'm sorry for being so dire. I'm certain you understand the magnitude of this situation, no?... I suppose it IS my fault for not telling you earlier. My mistake.",
+  "completionText" : "Outstanding, you made it! Now, the jump will only take ^yellow;4.6 days^reset;!... ...Dear me.
+  
+I guess a postcard will have to do, then. ^cyan;Happy Birthday, Ori!",
+  "moneyRange" : [2500,2500],
+  "rewards" : [
+    [ ]
+  ],
+  "canBeAbandoned" : true,
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/oribirthday.lua",
+  "scriptConfig" : {
+    "portraits" : {
+	  "QuestGiver" : "sail",
+      "default" : "sail"
+    },
+	"descriptions": {
+	  "talkToSail" : "Disscuss a plan with your S.A.I.L."
+	},
+	
+	"compassUpdate" : 0.2,
+    "techstationUid" : "techstation"
+  }
+}

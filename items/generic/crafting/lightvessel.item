@@ -1,0 +1,11 @@
+{
+  "itemName" : "lightvessel",
+  "price" : 7000,
+  "rarity" : "Legendary",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "lightvessel.png",
+  "description" : "An intricately crafted vessel of pure Spirit energy; an object held at extreme value by Spirit Guardians.",
+  "shortdescription" : "Light Vessel",
+  "itemTags" : [ "reagent" ],
+  "learnBlueprintsOnPickup" : [  ]
+}

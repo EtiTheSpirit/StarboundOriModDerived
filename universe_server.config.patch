@@ -1,0 +1,16 @@
+[
+	{ "op" : "add",
+		"path" : "/speciesShips/spiritguardian",
+		"value" : [
+		    "/ships/spiritguardian/floranT0.structure",
+			"/ships/spiritguardian/floranT1.structure",
+			"/ships/spiritguardian/floranT2.structure",
+			"/ships/spiritguardian/floranT3.structure",
+			"/ships/spiritguardian/floranT4.structure",
+			"/ships/spiritguardian/floranT5.structure",
+			"/ships/spiritguardian/floranT6.structure",
+			"/ships/spiritguardian/floranT7.structure",
+			"/ships/spiritguardian/floranT8.structure"
+		]
+	}
+]

@@ -1,0 +1,8 @@
+{
+  "name" : "mint",
+  "category" : "spiritguardianpet",
+  "type" : "body",
+  "frames" : {
+    "body" : "mint.png"
+  }
+}

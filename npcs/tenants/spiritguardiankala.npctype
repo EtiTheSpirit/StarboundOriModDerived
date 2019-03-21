@@ -1,0 +1,107 @@
+{
+  "type" : "spiritguardiankala",
+  "baseType" : "base",
+  
+  "levelVariance" : [3, 3],
+  "persistent" : true,
+  
+  "damageTeamType" : "friendly",
+  
+  "npcname" : "Kala",
+  "identity" : {
+    "imagePath" : "spiritguardiankala",
+    "gender" : "female",
+    "hairGroup" : "hair",
+    "hairType" : "1"
+  },
+  "dropPools" : [],
+
+  "scriptConfig" : {
+    "behavior" : "guard",
+    "behaviorConfig" : {
+      "greetingChance" : 0.67,
+
+      "hostileDamageTeam" : { "type" : "enemy", "team" : 1 }
+    },
+    "attackerLimit" : 8,
+    "attackerLimitCooldown" : 3,
+
+    "idleTimeRange" : [1, 2],
+    "questGenerator" : {
+      "pools" : ["common", "tenant", "guard"],
+      "enableParticipation" : true,
+
+      "timeLimit" : 30,
+      "nearbyQuestLimit" : 2,
+      "nearbyQuestRange" : 50,
+      "chance" : 0.02,
+      "flags" : {
+        "guard" : true
+      }
+    },
+    
+    "personalities" : [
+        [1.0, { "personality" : "normal", "reactions" : {} }]
+    ],
+
+    "reactions" : {
+      "spontaneous" : [
+        [5.0, "sleep", { "timeRange" : [0.7, 0.9] }],
+        [1.0, "patrol"]
+      ]
+    },
+  
+    "chatPortrait" : "/interface/chatbubbles/spiritguardiankala.png:<frame>",
+	
+    "dialog" : {
+      "tenant" : {
+        "grumbles" : {
+          "tagCriteria" : "/dialog/spiritguardiankala.config:tagCriteria",
+          "enclosedArea" : "/dialog/spiritguardiankala.config:enclosedArea",
+          "otherDeed" : "/dialog/spiritguardiankala.config:otherDeed",
+          "severe" : "/dialog/spiritguardiankala.config:severe",
+          "final" : "/dialog/spiritguardiankala.config:final"
+        },
+        "arrivedHome" : {
+          "beacon" : "/dialog/spiritguardiankala.config:beacon",
+          "rent" : "/dialog/spiritguardiankala.config:rent"
+        }
+      }},
+
+      "greeting" : "/dialog/spiritguardiankala.config:converse",
+      "converse" : "/dialog/spiritguardiankala.config:converse",
+      "accuse" : "/dialog/spiritguardiankala.config:accuse",
+
+      "attack" : "/dialog/spiritguardiankala.config:attack",
+      "reattack" : "/dialog/spiritguardiankala.config:reattack",
+      "killedTarget" : "/dialog/spiritguardiankala.config:killedTarget",
+      "lostTarget" : "/dialog/spiritguardiankala.config:lostTarget",
+      "outOfSight" : "/dialog/spiritguardiankala.config:outOfSight",
+      "cheerOn" : "/dialog/spiritguardiankala.config:cheerOn",
+      "cantReach" : "/dialog/spiritguardiankala.config:cantReach"
+    },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "chest" : [
+              { "name" : "spiritguardiantier4chest", "parameters" : { "colorIndex" : 0 } }
+            ],
+            "legs" : [
+              { "name" : "spiritguardiantier4pants", "parameters" : { "colorIndex" : 0 } }
+            ],
+            "head" : [
+              { "name" : "spiritguardiantier4head", "parameters" : { "colorIndex" : 0 } }
+            ],
+            "primary" : [
+              "kalarapier"
+            ],
+            "sheathedprimary" : [ 
+              { "name" : "kalastaff" }
+            ]
+          }
+        ] ]
+    ]
+  }
+}

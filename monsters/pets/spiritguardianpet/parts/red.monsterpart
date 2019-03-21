@@ -1,0 +1,8 @@
+{
+  "name" : "red",
+  "category" : "spiritguardianpet",
+  "type" : "body",
+  "frames" : {
+    "body" : "red.png"
+  }
+}

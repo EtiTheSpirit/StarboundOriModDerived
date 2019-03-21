@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "plantfibre", "count" : 20 },
+    { "item" : "plantmatter", "count" : 5 }
+  ],
+  "output" : { "item" : "spiritguardianleafbandage", "count" : 1 },
+  "groups" : [ "craftingwheel", "clothes" ]
+}

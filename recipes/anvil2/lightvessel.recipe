@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "spiritshard", "count" : 25 },
+	{ "item" : "diamond", "count" : 5}
+  ],
+  "output" : {
+    "item" : "lightvessel",
+    "count" : 1
+  },
+  "groups" : [ "craftinganvil2", "all"  ]
+}

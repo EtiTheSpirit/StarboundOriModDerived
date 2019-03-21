@@ -1,0 +1,59 @@
+{
+  "animationParts" : { },
+  "animationCustom" : {
+    "sounds" : {
+      "physicalTravelSlash" : [ "/sfx/melee/travelingslash_fire1.ogg" ]
+    }
+  },
+
+  "ability" : {
+    "name" : "Spirit Slash",
+    "type" : "spirittravelingslash",
+    "scripts" : ["/items/active/weapons/melee/abilities/broadsword/spirittravelingslash/spirittravelingslash.lua"],
+    "class" : "SpiritSlash",
+
+    "projectileOffset" : [0,0],
+    "elementalConfig" : {
+      "physical" : {
+        "projectileType" : "spirittravelingswoosh"
+      },
+      "fire" : {
+        "projectileType" : "spirittravelingswoosh"
+      },
+      "ice" : {
+        "projectileType" : "spirittravelingswoosh"
+      },
+      "poison" : {
+        "projectileType" : "spirittravelingswoosh"
+      },
+      "electric" : {
+        "projectileType" : "spirittravelingswoosh"
+      }
+    },
+
+    "baseDamage" : 14,
+    "energyUsage" : 20,
+    "cooldownTime" : 0.7,
+
+    "stances" : {
+      "windup" : {
+        "duration" : 0.25,
+        "armRotation" : 70,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "fire" : {
+        "duration" : 0.4,
+        "armRotation" : -45,
+        "weaponRotation" : -55,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  }
+}

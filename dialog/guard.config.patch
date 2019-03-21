@@ -1,0 +1,11 @@
+[
+	{
+		"op": "add",
+		"path": "/hail/spiritguardian",
+		"value": [
+			"Do be sure to remain tranquil here; we must avoid all conflict.",
+			"I am watching you as closely as Sein did Ori; do not cause trouble.",
+			"Welcome. Please, enjoy your stay, but do not be an interruption."
+		]
+	}
+]

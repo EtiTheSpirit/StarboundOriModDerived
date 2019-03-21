@@ -1,0 +1,107 @@
+{
+  "type" : "spiritguardianamo",
+  "baseType" : "base",
+  
+
+  "npcname" : "Amo",
+  "identity" : {
+    "imagePath" : "spiritguardianamo",
+    "gender" : "female",
+    "hairGroup" : "hair",
+    "hairType" : "1"
+  },
+
+  "scripts" : [
+    "/npcs/bmain.lua"
+  ],
+  "initialScriptDelta" : 5,
+  
+  "dropPools" : [ "basicTreasure" ],
+  "scriptConfig" : {
+    "behavior" : "merchant",
+
+    "behaviorConfig" : {
+      "noticePlayersRadius" : 10,
+
+      "hostileDamageTeam" : { "type" : "enemy", "team" : 1 }
+    },
+
+    "questGenerator" : {
+      "pools" : ["common", "tenant", "merchant"],
+      "enableParticipation" : true,
+
+      "timeLimit" : 30,
+      "chance" : 0.02,
+      "nearbyQuestLimit" : 2,
+      "nearbyQuestRange" : 50
+    },
+
+//    "chatPortrait" : "/interface/chatbubbles/spiritguardianamo.png:<frame>",
+	
+
+    "merchant" : {
+      "waitTime" : 40,
+      "storeRadius" : 16,
+      "poolsFile" : "/npcs/merchantpools.config",
+      "categories" : {
+        "spiritguardian" : [ "spiritguardianmedicine", "spiritguardianallingredients" ]
+      },
+      "buyFactorRange" : [ 1.0, 1.0 ],
+      "sellFactorRange" : [ 0.8, 0.8 ],
+      "numItems" : 48
+    },
+    "dialog" : {
+      "merchant" : {
+        "start" : "/dialog/spiritguardianamo.config:merchantStart",
+        "end" : "/dialog/spiritguardianamo.config:merchantEnd",
+        "follow" : "/dialog/spiritguardianamo.config:follow",
+        "welcome" : "/dialog/spiritguardianamo.config:welcome",
+        "tout" : "/dialog/spiritguardianamo.config:tout"
+      },
+      "flee" : {
+        "helpme" : "/dialog/flee.config:helpme",
+        "safe" : "/dialog/flee.config:safe"
+      },
+      "tenant" : {
+        "grumbles" : {
+          "tagCriteria" : "/dialog/spiritguardianamo.config:tagCriteria",
+          "enclosedArea" : "/dialog/spiritguardianamo.config:enclosedArea",
+          "otherDeed" : "/dialog/spiritguardianamo.config:otherDeed",
+          "severe" : "/dialog/spiritguardianamo.config:severe",
+          "final" : "/dialog/spiritguardianamo.config:final"
+        },
+        "arrivedHome" : {
+          "beacon" : "/dialog/spiritguardianamo.config:beacon",
+          "rent" : "/dialog/spiritguardianamo.config:rent"
+        }
+      },
+      "accuse" : "/dialog/thief.config:accuse",
+      "alert" : "/dialog/thief.config:alert"
+    },
+
+    "reactions" : {
+      "spontaneous" : [
+        [5.0, "sleep", { "timeRange" : [0.7, 0.9] }],
+        [1.0, "sit", { "timeRange" : [0.6,0.2]}],
+        [1.0, "wander", { "timeRange" : [0.2, 0.6] }]
+      ]
+    }},
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "chest" : [
+              { "name" : "spiritguardiantier4chest", "parameters" : { "colorIndex" : 0 } }
+            ],
+            "legs" : [
+              { "name" : "spiritguardiantier4pants", "parameters" : { "colorIndex" : 0 } }
+            ],
+            "head" : [
+              { "name" : "spiritguardiantier4head", "parameters" : { "colorIndex" : 0 } }
+            ]
+          }
+        ] ]
+    ]
+  }
+}

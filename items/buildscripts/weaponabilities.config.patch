@@ -1,0 +1,6 @@
+ [
+ 	{ "op": "add", "path": "/spirittravelingslash", "value": "/items/active/weapons/melee/abilities/broadsword/spirittravelingslash/spirittravelingslash.weaponability" },
+ 	{ "op": "add", "path": "/spiritbowshot", "value": "/items/active/weapons/bow/abilities/spiritbowshot.weaponability" },
+ 	{ "op": "add", "path": "/spiritzenshot", "value": "/items/active/weapons/bow/abilities/spiritzenshot.weaponability" }
+
+ ]

@@ -1,0 +1,51 @@
+{
+	"type" : "spiritguardianvisitor",
+	"baseType" : "outpostvisitor",
+	"statusControllerSettings" : {
+		"statusProperties" : {
+			"effectDirectives" : ""
+		}
+	},
+	"scriptConfig" : {
+		"dialog" : {
+			"converse" : {
+				"default" : {
+					"default" : [
+						"How are you?",
+						"What's up",
+						"Just looking."
+					],
+					"spiritguardian" : [
+						"I didn't think I'd find another Nibel Spirit here!",
+						"I wish that something could've been done to save Earth...",
+						"Good to see another spirit made it out!"
+					]
+				}
+			}
+		}
+	},
+	"items" : {
+		"override" : [
+			[0, [
+				{
+				"head" : [
+				  { "name" : "spiritguardiannohead", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } }
+				],
+				"chest" : [
+				  { "name" : "spiritguardiannochest", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } }
+				],
+				"legs" : [
+				  { "name" : "spiritguardiannolegs", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } }
+				],
+				"back" : [
+              { "name" : "spiritguardian_tail1", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+              { "name" : "spiritguardian_tail2", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+              { "name" : "spiritguardian_tail3", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+              { "name" : "spiritguardian_tail4", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+              { "name" : "spiritguardian_tail5", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } }
+					]
+				}
+				] ]
+		]
+	}
+}

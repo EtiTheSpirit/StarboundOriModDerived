@@ -1,0 +1,10 @@
+{
+  //Derived from novakidglow.
+  "name" : "spiritguardianglow",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [],
+
+  "animationConfig" : "spiritguardianglow.animation"
+}

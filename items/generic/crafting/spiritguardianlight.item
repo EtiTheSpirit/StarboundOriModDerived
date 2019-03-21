@@ -1,0 +1,11 @@
+{
+  "itemName" : "spiritguardianlight",
+  "price" : 200,
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "spiritguardianlight.png",
+  "description" : "Believed to hold the minds of fallen Spirits. Do be gentle with it.",
+  "shortdescription" : "Spirit Light Essence",
+  "itemTags" : [ "reagent" ],
+  "learnBlueprintsOnPickup" : [ "spiritshard", "spiritguardianlight" ]
+}

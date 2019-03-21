@@ -1,0 +1,5 @@
+This is just here as a "just in case".
+
+Bash is not indev, but it might be soon. Probably not. I don't know.
+
+It'd be cool tho, not gonna lie.

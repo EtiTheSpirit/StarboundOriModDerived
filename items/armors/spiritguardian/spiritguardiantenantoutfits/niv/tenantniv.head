@@ -1,0 +1,30 @@
+{
+  "itemName" : "tenantnivhead",
+  "price" : 0,
+  "inventoryIcon" : "icons.png:head",
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "category" : "headarmour",
+  "description" : "base",
+  "shortdescription" : "base head",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+
+  "colorOptions" : [
+    { "ffffff" : "ffffff" },
+    { "ffffff" : "ffffff" },
+    { "ffffff" : "ffffff" },
+    { "ffffff" : "ffffff" },
+    { "ffffff" : "ffffff" },
+    { "ffffff" : "ffffff" },
+    { "ffffff" : "ffffff" },
+    { "ffffff" : "ffffff" },
+    { "ffffff" : "ffffff" },
+    { "ffffff" : "ffffff" },
+    { "ffffff" : "ffffff" },
+    { "ffffff" : "ffffff" }
+  ]
+}

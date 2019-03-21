@@ -1,0 +1,13 @@
+[
+	{
+		//THIS COUNTS AS A GREETING.
+		"op": "add",
+		"path": "/converse/default/spiritguardian",
+		"value": [
+			"Glowing person. Somewhat scared. Cautiously hopeful.",
+			"Spirit Guardian. Appears friendly. Quite optimistic.",
+			"Strange newcomer. Glows bright. Very curious.",
+			"Spirit. Peaceful. Somewhat alert."
+		]
+	}
+]

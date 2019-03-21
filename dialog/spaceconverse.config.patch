@@ -1,0 +1,27 @@
+[
+	{
+		"op": "add",
+		"path": "/converse/spiritguardian",
+		"value": {
+			"default": [
+				"Hello, there! Do you enjoy the stars? I prefer to watch them from the treetops of a forest.",
+				"Welcome, friend. You won't see any trouble from me, I'm glad to see a new face.",
+				"What brings you here, traveller? If it's simply to visit, then you have my gratitude; it's been lonely.",
+				"Are you here to visit? Will you stay? ...Sorry. It's exciting to see a new person, is all.",
+				"I wish space was more like the forest, with a wondeful network of branches to explore. This emptiness is .. odd. Do you like it?",
+				"Hi! Please, take your time. It's great to have visitors. It gets lonely at times.",
+				"Hello friend. It's nice to meet a new person. I hope you stay for a while."
+			],
+			"spiritguardian": [
+				"I see you have taken to the stars as well. I never believed that the beautiful night sky contained all of this. It's amazing, isn't it?",
+				"Hello! I'm so glad to see a fellow spirit. Do you enjoy the stars?",
+				"Fellow guardian! How have you been? I hope you've done well, space is a ... troublesome place.",
+				"People are always so fascinated to see our kind. I suppose they have reason. Technology is the opposite of nature.",
+				"I see that I am not the only one who has taken to adventuring the skies. Welcome, friend.",
+				"It's great to see another face. I am <selfname>, it's nice to have you here.",
+				"What's this? Another guardian? Welcome! I do hope you've found space more interesting than I have. There's no trees.",
+				"Hello, spirit. I'm relieved, I thought I would never see another one of our kind again... Welcome."
+			]
+		}
+	}
+]

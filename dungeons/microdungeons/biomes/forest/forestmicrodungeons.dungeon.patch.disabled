@@ -1,0 +1,38 @@
+[
+ {
+  "op": "add",
+  "path": "/metadata/anchor/-",
+  "value":  
+   "ancestraltree1"
+ },
+ {
+  "op": "add",
+  "path": "/parts/-",
+  "value":  
+    {
+      "name" : "ancestraltree1",
+      "rules" : [
+        [ "maxSpawnCount", [3] ]
+      ],
+      "def" : [ "tmx", "ancestraltree1.json" ]
+    }	
+ },
+ {
+  "op": "add",
+  "path": "/metadata/anchor/-",
+  "value":  
+   "ancestraltree2"
+ },
+ {
+  "op": "add",
+  "path": "/parts/-",
+  "value":  
+    {
+      "name" : "ancestraltree2",
+      "rules" : [
+        [ "maxSpawnCount", [3] ]
+      ],
+      "def" : [ "tmx", "ancestraltree2.json" ]
+    }	
+ }
+]

@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "plantfibre", "count" : 30 },
+    { "item" : "coalore", "count" : 5 }
+  ],
+  "output" : {
+    "item" : "spirittreetorch",
+    "count" : 30
+  },
+  "groups" : [ "plain", "all" ]
+}

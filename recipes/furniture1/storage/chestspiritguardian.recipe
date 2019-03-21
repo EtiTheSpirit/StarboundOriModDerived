@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 15 },
+    { "item" : "plantmatter", "count" : 15 },
+    { "item" : "plantfibre", "count" : 20 }
+  ],
+  "output" : {
+    "item" : "chestspiritguardian",
+    "count" : 1
+  },
+  "groups" : [ "craftingfurniture", "storage", "all" ]
+}

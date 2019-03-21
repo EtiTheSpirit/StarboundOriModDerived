@@ -1,0 +1,12 @@
+{
+  "name" : "erchiussicknessblock",
+  "effectConfig" : {},
+  "defaultDuration" : 60,
+
+  "scripts" : [
+    "erchiussicknessblock.lua"
+  ],
+
+  "label" : "Erchius Immunity",
+  "icon" : "/interface/statuses/blockerchiussickness.png"
+}

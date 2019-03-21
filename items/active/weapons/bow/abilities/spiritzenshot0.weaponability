@@ -1,0 +1,58 @@
+{
+  "ability" : {
+    "type" : "spiritzenshot",
+    "class" : "SpiritZenShot",
+    "name" : "Spirit Zen Shot",
+    "scripts" : ["/items/active/weapons/bow/abilities/spiritzenshot.lua"],
+
+    "walkWhileFiring" : true,
+
+    "fireOffset" : [1.75, 0],
+
+    "energyPerShot" : 50,
+
+    "cooldownTime" : 0.15,
+
+    "drawFrameSelector" : "bowImageSelectorNoPower",
+    "drawPowerMultiplier" : "normalizedDrawTimeMultiplier",
+    "drawSpeedMultiplier" : "normalizedDrawTimeMultiplier",
+
+    "drawArmFrames" : ["rotation", "swim.2", "swim.2", "swimIdle.1", "swimIdle.1"],
+
+    "projectileType" : "chargedspiritarrow",
+    "projectileParameters" : {
+      "speed" : 75,
+      "power" : 15.125
+    },
+
+    "splitDelay" : 0.1,
+    "splitAngle" : 5,
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : -30,
+        "weaponRotation" : 0,
+        "allowRotate" : true,
+        "allowFlip" : true,
+        "twoHanded" : true
+      },
+      "draw" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "allowRotate" : true,
+        "allowFlip" : true,
+        "twoHanded" : true
+      },
+      "fire" : {
+        "duration" : 0.2,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "allowRotate" : false,
+        "allowFlip" : true,
+        "twoHanded" : true,
+
+        "frontArmFrame" : "idle.3"
+      }
+    }
+  }
+}

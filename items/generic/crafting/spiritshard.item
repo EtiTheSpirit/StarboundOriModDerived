@@ -1,0 +1,11 @@
+{
+  "itemName" : "spiritshard",
+  "price" : 1000,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "spiritshard.png",
+  "description" : "A small gem storing raw Spirit Light. This energy is not part of anyone's soul, and can be used without harm.",
+  "shortdescription" : "Spirit Shard",
+  "itemTags" : [ "reagent" ],
+  "learnBlueprintsOnPickup" : [ "spiritbow", "spiritbroadsword", "spiritdagger", "spiritshield", "lightvessel" ]
+}

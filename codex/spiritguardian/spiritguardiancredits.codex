@@ -1,0 +1,31 @@
+{
+	"id" : "spiritguardiancredits",
+	"title" : "Ori Mod Credits",
+	"description" : "Credits to those who lent a helping hand in the design of the mod.",
+	"icon" : "spiritguardiancreditscover.png",
+	"contentPages" : [
+"--------------- CORE USERS ---------------
+^#FF3F00;Xan the Dragon^reset;
+ > Mod Redux
+
+^green;Dustfox^reset; & ^green;Catfox^reset;
+ > Original Mod
+
+
+------------------ VIPS ------------------
+^#82C6FF;SilverStarStrike^reset;
+ > Early prototype for the alternate body shape ^gray;(indev)^reset;
+ > Clothing articles and other racial art / objects. ^gray;(indev)^reset;
+
+----------- HONORABLE MENTIONS -----------
+^cyan;Moon Studios^reset;
+^cornflowerblue;Ori Challenges Discord ^gray;(c8ADTsX, Invite may expire)^reset;
+^#FFFF82;Art of Nibel Discord ^gray;(rXJhRjh, Invite may expire)^reset;
+^violet;Starbound Discord ^#4B3877;(Ask for a Spirit Guardian race. <3)^reset;",
+"The icon is a Datacube from WildStar. I'll just blow that question out of the way here :)"
+	],
+	"itemConfig" : {
+		"rarity" : "common",
+		"price" : 25
+	}
+}

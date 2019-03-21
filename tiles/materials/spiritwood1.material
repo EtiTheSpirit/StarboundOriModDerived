@@ -1,0 +1,25 @@
+{
+  "materialId" : 2801,
+  "materialName" : "spiritwood1",
+  "particleColor" : [154, 133, 90, 255],
+  "itemDrop" : "spiritwood1",
+  "description" : "Wood that is used for Spirit Guardian homes.",
+  "shortdescription" : "Spirit Wood Panelling",
+  "glitchDescription" : "Confused. These panels have a mysterious energy coming off of them...",
+  "floranDescription" : "Sstrange panels have energy flowing.",
+  "novakidDescription" : "These wood panels are mighty strange.",
+  "footstepSound" : "/sfx/blocks/footstep_lightwood.ogg",
+  "health" : 2,
+  "category" : "materials",
+  "damageTable" : "/tiles/flammableDamage.config",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "spiritwood1.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 2710
+  }
+}

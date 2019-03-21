@@ -1,0 +1,92 @@
+{
+  "objectName" : "spirittreetorch",
+  "colonyTags" : ["light","spiritguardian"],
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "light",
+  "price" : 20,
+  "description" : "This torch flickers softly.",
+  "shortdescription" : "Spirit Torch",
+  "race" : "spiritguardian",
+  "apexDescription" : "A torch made of some sort of bioluminescent plant.",
+  "avianDescription" : "The orb floating above glows quite brightly.",
+  "floranDescription" : "Floran curiouss about orb torch... Floran feelss.. Sstronger.",
+  "glitchDescription" : "Curious. This torch has an odd energy.",
+  "humanDescription" : "I like the little orb. I'm not gonna touch it though.",
+  "hylotlDescription" : "The humble torch, invaluable out in the wild.",
+  "novakidDescription" : "A torch. Can't live without 'em! ...Especially this here bright one!",
+  "spiritguardianDescription" : "This torch shines with the light of a Spirit Tree.",
+  "lightColor" : [200, 235, 255],
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.95,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0.075,
+  "flickerIntensityVariance" : 0.025,
+  "inventoryIcon" : "spirittreetorchicon.png",
+  "orientations" : [
+    {
+      "image" : "spirittreetorch.png:<color>.<frame>",
+      "imagePosition" : [1, 0],
+      "animationParts" : {
+        "bg" : "spirittreetorch.png",
+        "fg" : "spirittreetorchlit.png"
+      },
+      "animationPosition" : [1, 0],
+      "spaces" : [ [0, 0], [0, 1] ],
+      "fgAnchors" : [ [0, -1] ],
+      "direction" : "right"
+    },
+    {
+      "image" : "spirittreetorchleft.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "animationParts" : {
+        "bg" : "spirittreetorchleft.png",
+        "fg" : "spirittreetorchleftlit.png"
+      },
+      "animationPosition" : [0, 0],
+      "spaces" : [ [0, 0], [0, 1] ],
+      "fgAnchors" : [ [-1, 0] ],
+      "direction" : "right"
+    },
+    {
+      "image" : "spirittreetorchright.png:<color>.<frame>",
+      "imagePosition" : [2, 0],
+      "animationParts" : {
+        "bg" : "spirittreetorchright.png",
+        "fg" : "spirittreetorchrightlit.png"
+      },
+      "animationPosition" : [2, 0],
+      "spaces" : [ [0, 0], [0, 1] ],
+      "fgAnchors" : [ [1, 0] ],
+      "direction" : "right"
+    },
+    {
+      "image" : "spirittreetorch.png:<color>.<frame>",
+      "imagePosition" : [1, 0],
+      "animationParts" : {
+        "bg" : "spirittreetorch.png",
+        "fg" : "spirittreetorchlit.png"
+      },
+      "animationPosition" : [1, 0],
+      "spaces" : [ [0, 0], [0, 1] ],
+      "bgAnchors" : [ [0, 0] ],
+      "direction" : "right"
+    }
+  ],
+  "soundEffect" : "/sfx/objects/spirittorch/loop.ogg",
+  "soundEffectRangeMultiplier" : 0.2,
+  "animation" : "spirittreetorch.animation",
+  "animationParts" : {
+    "bg" : "spirittreetorch.png",
+    "fg" : "spirittreetorchlit.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/objects/spirittorch/igniteA.ogg" ],
+      "off" : [ "/sfx/objects/spirittorch/muffleA.ogg", "/sfx/objects/spirittorch/muffleB.ogg" ]
+    }
+  },
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+  "inputNodes" : [ [0, 0] ]
+}

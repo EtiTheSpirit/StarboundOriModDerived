@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "spiritguardianlight", "count" : 10 }
+  ],
+  "output" : {
+    "item" : "spiritshard",
+    "count" : 1
+  },
+  "groups" : [ "plain", "all" ]
+}

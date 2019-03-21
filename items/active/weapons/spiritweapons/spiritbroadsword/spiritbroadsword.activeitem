@@ -1,0 +1,35 @@
+{
+	"itemName" : "spiritbroadsword",
+	"price" : 500,
+	"maxStack" : 1,
+	"rarity" : "Common",
+	"description" : "A sword imbued with the power of the Spirit Tree",
+	"shortdescription" : "Spirit Broadsword",
+	"tooltipKind" : "sword",
+	"category" : "broadsword",
+	"twoHanded" : true,
+	"itemTags" : ["weapon","melee","broadsword","upgradeableWeapon"],
+	"inventoryIcon" : "spiritbroadsword.png",
+	"animation" : "spiritcombobroadsword.animation",
+	"animationParts" : {
+		"handle" : "",
+		"blade" : "spiritbroadsword.png"
+	},
+	"animationCustom" : { },
+	"scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+	"elementalType" : "physical",
+	"primaryAbilityType" : "broadswordcombo",
+	"primaryAbility" : {
+		"fireTime" : 0.5,
+		"baseDps" : 20
+	},
+	"altAbilityType" : "spirittravelingslash",
+	"builder" : "/items/buildscripts/buildunrandweapon.lua",
+	
+		"upgradeParameters" : {
+		"animationParts" : {
+			"blade" : "spiritbroadsword_l6.png"
+		},
+		"shortdescription" : "Spirit Broadsword ^yellow;^reset;"
+	}
+}

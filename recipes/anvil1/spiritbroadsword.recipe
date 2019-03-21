@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 6 },
+	{ "item" : "spiritshard", "count" : 4},
+    { "item" : "plantfibre", "count" : 20 }
+  ],
+  "output" : { "item" : "spiritbroadsword", "count" : 1 },
+  "groups" : [ "craftinganvil", "weapons", "all" ]
+}

@@ -1,0 +1,12 @@
+[
+  {
+    "op": "add",
+    "path": "/spiritguardianStarterTreasure",
+    "value": [[0, {
+      "fill" : [
+        {"pool" : "starterTreasure"},
+        {"item" : [ "spirittails_bag", 1 ]}
+      ]
+    }]]
+  }
+]
