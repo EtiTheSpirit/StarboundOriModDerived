@@ -2,6 +2,19 @@
 
 You can get information on upcoming patches in [Patches-Indev.md](https://github.com/XanTheDragon/StarboundOriModDerived/blob/master/Patches-Indev.md).
 
+# Version 1.4.8c
+Released 20 Mar 2019
+
+## Changes
+```diff
+* Updated race description to be more descriptive and better in general.
+```
+
+## Known Bugs
+ * None
+ 
+ ---
+
 # Version 1.4.8b
 Released 19 Mar 2019
 
