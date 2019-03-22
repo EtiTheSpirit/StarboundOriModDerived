@@ -39,7 +39,7 @@ function SayAsSAIL(Message, MessageId, PersistTime)
 		type = "mission",
 		text = Message,
 		unique = (MessageId ~= nil),
-		persistTime = PersistTime or 6
+		persistTime = PersistTime or 6,
 		messageId = MessageId or tostring(math.random())
 	}
 	world.sendEntityMessage(entity.uniqueId(), "radioMessage", RadioMessage) --Added by questAccessDeployment.lua in scripts
