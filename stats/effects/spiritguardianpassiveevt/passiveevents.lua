@@ -33,12 +33,14 @@ function CurrentDate(z)
 	return y + (m <= 2 and 1 or 0), m, d
 end
 
-function SayAsSAIL(Message, MessageId)
+function SayAsSAIL(Message, MessageId, PersistTime)
+	--See ./radiomessages.config for parameters
 	local RadioMessage = {
-		type="mission",
-		text=Message,
-		unique=true,
-		messageId=MessageId or tostring(math.random())
+		type = "mission",
+		text = Message,
+		unique = (MessageId ~= nil),
+		persistTime = PersistTime or 6
+		messageId = MessageId or tostring(math.random())
 	}
 	world.sendEntityMessage(entity.uniqueId(), "radioMessage", RadioMessage) --Added by questAccessDeployment.lua in scripts
 end
@@ -48,8 +50,6 @@ function OriBirthdayFunction(IsBirthday)
 	local Year, Month, Day = CurrentDate()
 	local OriYear = tostring(Year - 2015)
 	SayAsSAIL("I just thought I'd let you know that today is ^cyan;Ori^reset;'s ^green;" .. OriYear .. GetNumberEnding(OriYear) .. "^reset; birthday. I've taken the liberty of sending a virtual postcard for you. You can thank me later.", "OriBirthday"..OriYear)
-	-- if world.sendEntityMessage(entity.uniqueId(), "hasCompletedQuest", "march11"):result() then return end
-	-- world.sendEntityMessage(entity.uniqueId(), "startQuest", "march11") --Added by questAccessDeployment.lua in scripts
 end
 
 function XanBirthdayFunction(IsBirthday)
@@ -57,7 +57,7 @@ function XanBirthdayFunction(IsBirthday)
 	local Year, Month, Day = CurrentDate()
 	local XanYear = tostring(Year - 1626)
 	local ActualXanYear = tostring(Year - 2000)
-	SayAsSAIL("Today's is ^#FF3F00;Xan^reset;'s ^green;" .. XanYear .. GetNumberEnding(XanYear) .. "^reset; birthday ^darkgray;(" .. ActualXanYear .. GetNumberEnding(ActualXanYear) .. " birthday in real life)^reset;. You probably don't know who he is. He's the Draconian who found the ^cyan;Spirit Guardian^reset; homeworld, ^cornflowerblue;Nibel^reset;, and suggested your race be annexed into ^yellow;The Protectorate^reset;. I thought I'd let you know.", "XanBirthday"..ActualXanYear)
+	SayAsSAIL("Today's is ^#FF3F00;Xan^reset;'s ^green;" .. XanYear .. GetNumberEnding(XanYear) .. "^reset; birthday ^darkgray;(" .. ActualXanYear .. GetNumberEnding(ActualXanYear) .. " birthday in real life)^reset;. You probably don't know who he is. He's the Draconian who found the ^cyan;Spirit Guardian^reset; homeworld, ^cornflowerblue;Nibel^reset;, and suggested your race be annexed into ^yellow;The Protectorate^reset;. I thought I'd let you know.", "XanBirthday"..ActualXanYear, 8.5)
 end
 
 function init()
