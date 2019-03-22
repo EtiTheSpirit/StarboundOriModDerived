@@ -1,6 +1,6 @@
 {
-  "oriBirthdayRadioMessage" : {
+  "xanBirthdayRadioMessage" : {
     "type" : "mission",
-    "text" : "We are running out of time. I advise that you drop down through this platform by ^#71f2f6;holding S to crouch, then tapping spacebar^white;."
+    "text" : "Today's a bit special. It's ^#FF3F00;Xan^reset;'s birthday. You probably don't know who he is, though. He was one of the first people to show interest in your culture, resulting in ^cyan;Spirit Guardians^reset; being annexed into ^yellow;The Protectorate^reset;."
   }
 }
