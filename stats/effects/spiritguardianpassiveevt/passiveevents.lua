@@ -37,7 +37,7 @@ function SayAsSAIL(Message, MessageId)
 	local RadioMessage = {
 		type="mission",
 		text=Message,
-		unique=false,
+		unique=true,
 		messageId=MessageId or tostring(math.random())
 	}
 	world.sendEntityMessage(entity.uniqueId(), "radioMessage", RadioMessage) --Added by questAccessDeployment.lua in scripts
