@@ -1,5 +1,5 @@
  [
-  { "op" : "add", "path" : "/defaultCodexes/spiritguardian", "value" : [ "protectorate1", "protectorate2" ] },
+  { "op" : "add", "path" : "/defaultCodexes/spiritguardian", "value" : [ "protectorate1", "protectorate2", "spiritguardiancredits" ] },
   { "op" : "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "chestspiritguardian" } },
   { "op" : "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "spiritguardiandoor" } },
   { "op" : "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "spiritguardiantable" } },

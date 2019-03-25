@@ -4,28 +4,40 @@
 	"description" : "Credits to those who lent a helping hand in the design of the mod.",
 	"icon" : "spiritguardiancreditscover.png",
 	"contentPages" : [
+"This codex aims to recognize those who have lent me a hand in some way during the development of this mod. Certain users may be specially mentioned while others will be generally represented through their community.",
 "--------------- CORE USERS ---------------
 ^#FF3F00;Xan the Dragon^reset;
- > Mod Redux
+ > Mod Redux, new Frackin Universe extensions
 
 ^green;Dustfox^reset; & ^green;Catfox^reset;
- > Original Mod
+ > Original Mod Design + Original Frackin Universe extensions",
 
-
------------------- VIPS ------------------
+"----------------- VIPS I -----------------
 ^#82C6FF;SilverStarStrike^reset;
- > Early prototype for the alternate body shape ^gray;(indev)^reset;
- > Clothing articles and other racial art / objects. ^gray;(indev)^reset;
+ > Proto. for the alternate body shape
+ > Proto. clothing and other racial art / objects
+ 
+^#82C6FF;Aelotra^reset;
+ > Early design for new Spirit Guardian ship pet",
+ 
+"---------------- VIPS II ----------------
+^#FFCD59;RWGryphon^reset;
+ > Playtesting the mod extensively with me, continued motivation for the details that matter.
 
------------ HONORABLE MENTIONS -----------
+^yellow;Folks who give feedback + bug reports on the Steam Workshop ^gray;(Seriously. It helps)^reset;",
+ 
+"----------- HONORABLE MENTIONS -----------
 ^cyan;Moon Studios^reset;
-^cornflowerblue;Ori Challenges Discord ^gray;(c8ADTsX, Invite may expire)^reset;
-^#FFFF82;Art of Nibel Discord ^gray;(rXJhRjh, Invite may expire)^reset;
-^violet;Starbound Discord ^#4B3877;(Ask for a Spirit Guardian race. <3)^reset;",
-"The icon is a Datacube from WildStar. I'll just blow that question out of the way here :)"
+ > Creating Ori and the Blind Forest.
+
+^cornflowerblue;Ori Challenges Discord ^#4B70AF;(c8ADTsX, Invite may expire)^reset;
+ > Everyone who's shown interest here has done a great job of motivating me to keep going. Huge rep to you all for this.
+
+^violet;Starbound Discord ^#4B3877;(Ask for a Spirit Guardian race. <3)^reset;
+ > LOTS of help in understanding Starbound's modding methodology and getting a lot of questions cleared up. This mod wouldn't be headed in the same direction if it weren't for these folks."
 	],
 	"itemConfig" : {
-		"rarity" : "common",
+		"rarity" : "unique",
 		"price" : 25
 	}
 }
