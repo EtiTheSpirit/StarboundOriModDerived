@@ -1,5 +1,6 @@
 {
 	"id" : "spiritguardiancredits",
+	"species" : "spiritguardian",
 	"title" : "Ori Mod Credits",
 	"description" : "Credits to those who lent a helping hand in the design of the mod.",
 	"icon" : "spiritguardiancreditscover.png",
@@ -37,7 +38,7 @@
  > LOTS of help in understanding Starbound's modding methodology and getting a lot of questions cleared up. This mod wouldn't be headed in the same direction if it weren't for these folks."
 	],
 	"itemConfig" : {
-		"rarity" : "unique",
+		"rarity" : "essential",
 		"price" : 25
 	}
 }

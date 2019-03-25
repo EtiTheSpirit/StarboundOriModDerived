@@ -1,10 +1,11 @@
 {
 	"id" : "spiritguardianscience0",
+	"species" : "spiritguardian",
 	"title" : "Spirits and Technology",
 	"description" : "This codex documents the interactions between Spirit energy and technology.",
 	"icon" : "spiritguardiantablet1.png",
 	"contentPages" : [
-		"\"Spirits and Technology\" by Fen, 3151
+		"\"Spirits and Technology\" by Fen, Nibel Year 1101
 
 For centuries our technology on Nibel was solely powered by our connection to one-another - an energy we called \"Spirit Light\". When we first encountered The Protectorate some 339 Earth years ago, we learned that there was more than just our way of making tech: We were introduced to electronics, which carried concepts far beyond our capabilities at the time.
 
@@ -21,7 +22,7 @@ While for certain devices this attribute was completely unnecessary, this capabi
 "The hybrid technology we have today has gained traction even from those who are not Spirits. For some, it's the aesthetic of our devices. For others, it's the idea of being able to control the device with your mind (Which isn't as easy as most people think, unfortunately). Regardless of why people decided to use the tech, it has certainly gained traction and is seen as a valuable contribution to society in the eyes of most."
 	],
 	"itemConfig" : {
-		"rarity" : "common",
+		"rarity" : "essential",
 		"price" : 25
 	}
 }
