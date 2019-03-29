@@ -2,6 +2,68 @@
 
 You can get information on upcoming patches in [Patches-Indev.md](https://github.com/XanTheDragon/StarboundOriModDerived/blob/master/Patches-Indev.md).
 
+# Version 1.4.9b
+Released 28 Mar 2019 at 11:43 AM Central
+
+## Changes
+```diff
++ Added XCustomDeathSound mod as a stock option built into this mod.
+* Fixed an issue where the in-game mod version still said 1.4.8c. A bit out of date!
+```
+
+## Known Bugs
+ * None
+ 
+ ---
+
+# Version 1.4.9a
+Released 28 Mar 2019 at 11:43 AM Central
+
+## Changes
+```diff
++ Added files for a prototype Sein-like S.A.I.L, but this change is not live and the spirit icon is used.
+* Changed sprites in the tech console to be a little bit better. I may rework these again in the future.
+```
+
+## Known Bugs
+ * None
+ 
+ ---
+
+# Version 1.4.9
+Released 26 Mar 2019 at 3:40 PM Central
+
+## Changes
+```diff
++ Added a new song file for in-game instruments written by Moisés Nieto (https://www.youtube.com/watch?v=njEycbetcmY). Thanks to him for giving me the MIDI.
++ Added more to the credits codex and made it more presentable in general.
+* Made the credits codex a default codex entry.
+* Improved grammar in various lore-based codex entries.
+* Added racial tagging to codex entries as well as categories for the codex viewer if you have Extended GUI or anything.
+* Changed the writing of codex entries to use arbitrary time rather than a made-up Earth-based timescale since there is no official backing lore for this.
+* Added extra stats to the Frackin Races patch. See below.
+- Removed Datacube style cover for credits codex, made a more cohesive image (It was being used as a placeholder)
+```
+
+### Frackin' Races Patch
+All stats have been finalized. These perks will only be usable if you have Frackin' Races installed.
+```diff
++ Bonus: +20% Maximum Speed, Maximum Energy, Jump Height, and Food Delta (Hunger lasts longer)
++ Bonus: -40% Falling Damage
++ Bonus: +10% Resistance to Shadow and Cosmic damage sources.
++ Bonus: +15% Total Resistance and +10% Maximum Health when in Jungles, Forests, Bogs, or Arboreal biomes.
++ Bonus: +30% Power and +10% Total Resistance when using wands or staves.
++ Bonus: Bioluminescent (Emit light) (This is a vanilla perk)
+- Weakness: -20% Maximum Health
+- Weakness: -30% Resistance to Physical and Toxic damage.
+```
+
+## Known Bugs
+ * FR: Sometimes buffs don't apply in certain biomes but this is dodgy and needs to be investigated further.
+ 
+ ---
+
+
 # Version 1.4.8c
 Released 20 Mar 2019
 

@@ -2,7 +2,7 @@
 A derived version of the Spirit Guardian mod on the Steam workshop.
 
 # How to get to mod files
-This mod can be found in `STEAM_DIRECTORY/steamapps/workshop/content/211820/1614494395/contents.pak` - Use the built in asset_unpacker.exe file (in starbound's win32 directory) to unpack this file and view the raw data.
+Check out the other branches for this mod. Just near the top left of this screen, you can see an option that reads `Branch: master`. Change this to one of the other three available branches to get files. I recommend `mod_core` since that's the live build.
 
 # How to download
 This is now on the Steam Workshop!
