@@ -1,6 +1,6 @@
-# Upcoming Patch Info
+# Patches
 
-You can get information on upcoming patches in [Patches-Indev.md](https://github.com/XanTheDragon/StarboundOriModDerived/blob/master/Patches-Indev.md).
+Here you can see the updates made to the mod.
 
 # Version 1.4.9b
 Released 28 Mar 2019 at 11:43 AM Central

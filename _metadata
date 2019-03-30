@@ -2,10 +2,10 @@
   "author" : "Xan the Dragon",
   "description" : "^#AAAAAA;An official edit and continuation of the Spirit Guardian Mod created by ^#00AAAA;Dustfox ^#AAAAAA;and ^#00AAAA;Catfox^#AAAAAA;.\n\n^reset;All art and other aspects of this mod that are not mentioned in the changelog is work done by the original creators. I have received explicit permission from the original creator to host this version.\n\n^#AAAAAA;YOU WILL NEED TO UNINSTALL THE OTHER ONE TO USE THIS!!! ^#1FFF1F;Your save ^#00FF00;WILL ^#1FFF1F;be compatible and will seamlessly transition to this version^#AAAAAA;. If you wish to, you can back up your saves by duplicating the \"storage\" folder in the game directory.\n\n\nChanges and version information can be found at https://github.com/XanTheDragon/StarboundOriModDerived/blob/master/Patches.md.",
   "friendlyName" : "[Redux] Spirit Guardian Race",
-  "link" : "steam://url/CommunityFilePage/1614494395",
+  "link" : "https://github.com/XanTheDragon/StarboundOriModDerived",
   "name" : "Ori Mod Redux",
   "path" : ".",
   "steamContentId" : "1614494395",
   "tags" : "Crafting and Building|Miscellaneous|NPCs and Creatures|Weapons|Species|Furniture and Objects|Armor and Clothes",
-  "version" : "^#00FF00;1.4.9^#FFAA00;b^reset;"
+  "version" : "^#00FF00;1.4.9^#FFAA00;c^reset;"
 }
