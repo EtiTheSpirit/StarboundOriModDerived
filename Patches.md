@@ -2,8 +2,21 @@
 
 Here you can see the updates made to the mod.
 
+# Version 1.4.9c
+Released 30 Mar 2019 at 12:24 PM Central
+
+## Changes
+```diff
+Fixed Issue #5
+```
+
+## Known Bugs
+ * None
+ 
+ ---
+
 # Version 1.4.9b
-Released 28 Mar 2019 at 11:43 AM Central
+Released 29 Mar 2019 at 5:33 PM Central
 
 ## Changes
 ```diff

@@ -38,7 +38,7 @@ end
 function uninit()
 	if olduninit then olduninit() end
 	
-	if wouldDieOnThisFrame() and #self.deathSoundFx > 0 then
+	if wouldDieOnThisFrame() and self.deathSoundFx and #self.deathSoundFx > 0 then
 		world.spawnProjectile("invisibleprojectile", entity.position(), player.id(), {0,0}, false, 
 		{
 			timeToLive = 0,
