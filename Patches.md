@@ -3,11 +3,32 @@
 Here you can see the updates made to the mod.
 
 # Version 1.4.9c
+Released 2 Apr 2019 at 12:02 AM Central
+
+## Changes
+```diff
++ Added a message to get users to help me out with feedback. This radio message will only show once.
++ Added a new Xan radio message type. c:
++ Added sounds for Xan radio message type. Man I sound great.
++ Added XanScriptCore / "XCore" into the mod which offers some neat little lua thingies.
++ Added new event handler script for special events like Ori's birthday on March 11, or even my birthday!
+* Reduced brightness of `spiritguardianglow` effect to 25% (from 50%)
+- Removed `spiritguardianpassiveevt` status effect since it's no longer handled there.
+```
+https://docs.google.com/forms/d/e/1FAIpQLSeqoa5QQVHivQHBMIpRKrBi8ZmPxKZT8D6WbzRnXy2SWnMZUw/viewform
+
+
+## Known Bugs
+ * None
+ 
+ ---
+
+# Version 1.4.9c
 Released 30 Mar 2019 at 12:24 PM Central
 
 ## Changes
 ```diff
-Fixed Issue #5
+* Fixed Issue #5
 ```
 
 ## Known Bugs

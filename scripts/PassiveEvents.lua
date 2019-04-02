@@ -31,7 +31,7 @@ function init()
 	})
 	
 	self.tempPollMessage = LuaRadioMessage:NewMessage({
-		text = "This is ^#FF3F00;Xan^reset; speaking. Some critical changes are being done to the ^#99BBFF;Spirit Guardian^reset; mod, and I need your opinions. ^cyan;Go to https://pastebin.com/uAjpSggm to see the link.^reset;";
+		text = "This is ^#FF3F00;Xan^reset; speaking. Some critical changes are being done to the ^#99BBFF;Spirit Guardian^reset; mod, and I need your opinions. ^cyan;Go to the workshop page to see the link.^reset;";
 		persistTime = 12;
 		important = true;
 		senderName = "^#FF3F00Xan^reset;";
@@ -39,7 +39,7 @@ function init()
 		portraitSpeed = 0.5;
 		chatterSound = "/sfx/interface/xanchatter.ogg";
 		unique = true;
-		messageId = "PollMessageIndev3"
+		messageId = "PollMessage0"
 	})
 	
 	--self.hasDoneStuff = false
