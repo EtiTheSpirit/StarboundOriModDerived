@@ -2,6 +2,19 @@
 
 Here you can see the updates made to the mod.
 
+# Version 1.4.10
+Released 8 Apr 2019 at 1:30 PM Central
+
+## Changes
+```diff
+- Removed poll announcement.
+```
+
+## Known Bugs
+ * None
+ 
+ ---
+
 # Version 1.4.9e
 Released 2 Apr 2019 at 12:34 PM Central
 
@@ -9,8 +22,6 @@ Released 2 Apr 2019 at 12:34 PM Central
 ```diff
 * Change display message added in 1.4.9d to point here instead of to pastebin.
 ```
-https://docs.google.com/forms/d/e/1FAIpQLSeqoa5QQVHivQHBMIpRKrBi8ZmPxKZT8D6WbzRnXy2SWnMZUw/viewform
-
 
 ## Known Bugs
  * None
