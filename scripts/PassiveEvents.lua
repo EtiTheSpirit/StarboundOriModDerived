@@ -4,7 +4,7 @@ require "/scripts/interp.lua"
 require "/scripts/xcore/LuaRadioMessage.lua"
 require "/scripts/xcore/InitializationUtility.lua"
 
-local OLD_INIT_FUNC_LOCAL = init --_LOCAL because InitializationUtility uses the same var name otherwise and things will get mixed up.
+local OLD_INIT_FUNC_LOCAL = init --_LOCAL because InitializationUtility uses the same var name, and things will get mixed up if I use it.
 
 function init()
 	local Year, Month, Day = CurrentDate()
@@ -30,6 +30,8 @@ function init()
 		messageId = "xanbirthday" .. realXanYear;
 	})
 	
+	--Poll's over! Check species folder for more info.
+	--[[
 	self.tempPollMessage = LuaRadioMessage:NewMessage({
 		text = "This is ^#FF3F00;Xan^reset; speaking. Some critical changes are being done to the ^#99BBFF;Spirit Guardian^reset; mod, and I need your opinions. ^cyan;Go to the workshop page to see the link.^reset;";
 		persistTime = 12;
@@ -41,7 +43,7 @@ function init()
 		unique = true;
 		messageId = "PollMessage0"
 	})
-	
+	--]]
 	--self.hasDoneStuff = false
 	if OLD_INIT_FUNC_LOCAL then
 		OLD_INIT_FUNC_LOCAL()
@@ -49,9 +51,9 @@ function init()
 end
 
 function postinit()
-	if self.tempPollMessage then
-		self.tempPollMessage:SendToEntityInWorld(entity, world)
-	end
+	-- if self.tempPollMessage then
+		-- self.tempPollMessage:SendToEntityInWorld(entity, world)
+	-- end
 	if self.isOrisBirthday and self.oriBirthdayMessage then
 		self.oriBirthdayMessage:SendToEntityInWorld(entity, world)
 	end
