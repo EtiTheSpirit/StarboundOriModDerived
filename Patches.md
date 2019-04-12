@@ -2,8 +2,24 @@
 
 Here you can see the updates made to the mod.
 
+# Version 1.4.11
+Released 12 Apr 2019 at 9:45 AM Central
+
+## Changes
+```diff
+* Edited credits codex to accommodate for "Ori Challenges" discord name being officially changed.
+* Changed credits codex icon
+```
+
+## Known Bugs
+ * None
+ 
+ ---
+
 # Version 1.4.10
 Released 8 Apr 2019 at 1:30 PM Central
+
+From here on out, proper semantic versioning will be used.
 
 ## Changes
 ```diff

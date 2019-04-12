@@ -2,11 +2,11 @@
 	"id" : "spiritguardiancredits",
 	"title" : "Ori Mod Credits",
 	"description" : "Credits to those who lent a helping hand in the design of the mod.",
-	"icon" : "spiritguardiancreditscover.png",
+	"icon" : "spiritguardianpapercover3.png",
 	"contentPages" : [
 "--------------- CORE USERS ---------------
 ^#FF3F00;Xan the Dragon^reset;
- > Mod Redux
+ > Mod Redux / new content
 
 ^green;Dustfox^reset; & ^green;Catfox^reset;
  > Original Mod
@@ -19,10 +19,9 @@
 
 ----------- HONORABLE MENTIONS -----------
 ^cyan;Moon Studios^reset;
-^cornflowerblue;Ori Challenges Discord ^gray;(c8ADTsX, Invite may expire)^reset;
+^cornflowerblue;The Lights of Nibel Discord ^gray;(c8ADTsX, Invite may expire)^reset;
 ^#FFFF82;Art of Nibel Discord ^gray;(rXJhRjh, Invite may expire)^reset;
-^violet;Starbound Discord ^#4B3877;(Ask for a Spirit Guardian race. <3)^reset;",
-"The icon is a Datacube from WildStar. I'll just blow that question out of the way here :)"
+^violet;Starbound Discord ^#4B3877;(Ask for a Spirit Guardian race <3)^reset;"
 	],
 	"itemConfig" : {
 		"rarity" : "common",
