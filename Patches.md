@@ -2,6 +2,16 @@
 
 Here you can see the updates made to the mod.
 
+# Version 1.5.0
+Released 10 May 2019 at 11:07 PM Central
+
+## Changes
+```diff
+- Removed RED color group from avatar model, changing the amount of color combos from 1331 to 121.
+```
+
+---
+
 # Version 1.4.11
 Released 12 Apr 2019 at 9:45 AM Central
 
