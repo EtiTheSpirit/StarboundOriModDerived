@@ -34,7 +34,7 @@ function wouldDieOnThisFrame()
 	return false
 end
 
---This runs when the player dies.
+--This runs when the player dies (This is a core player script, and this function runs when the script unloads)
 function uninit()
 	if olduninit then olduninit() end
 	

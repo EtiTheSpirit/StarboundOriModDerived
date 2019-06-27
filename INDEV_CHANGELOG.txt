@@ -3,6 +3,13 @@ Here, I store the changes I've made within my local copy of the mod so that I do
 
 >>> You may find things mentioned in here that are nowhere to be seen even in newer versions. Chances are, cut content will be kept in this list on accident, but the content itself will not be in files.
 
+Right now:
+	> New dialog for PassiveEvents + sound effects based on sein chatter. Todo: Implement sound?
+
+
+
+
+SoonTM stuff:
 v. INDEV-1.X Append prototype bash tech.
 	> Upd. Very buggy and projectile detection lags + doesn't work
 	> Upd. Very laggy still. May need to cut projectile detection.

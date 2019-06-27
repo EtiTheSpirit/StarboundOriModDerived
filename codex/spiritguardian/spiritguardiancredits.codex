@@ -1,7 +1,7 @@
 {
 	"id" : "spiritguardiancredits",
 	"title" : "Ori Mod Credits",
-	"description" : "Credits to those who lent a helping hand in the design of the mod.",
+	"description" : "Credits to those who extended a helping hand in the design of the mod.",
 	"icon" : "spiritguardianpapercover3.png",
 	"contentPages" : [
 "--------------- CORE USERS ---------------
@@ -11,17 +11,18 @@
 ^green;Dustfox^reset; & ^green;Catfox^reset;
  > Original Mod
 
-
------------------- VIPS ------------------
+","------------------ VIPS ------------------
 ^#82C6FF;SilverStarStrike^reset;
- > Early prototype for the alternate body shape ^gray;(indev)^reset;
- > Clothing articles and other racial art / objects. ^gray;(indev)^reset;
+ > Early concept / proto for alternate body shapes ^gray;(indev)^reset;
+ 
+","------------ GENERAL HELPERS -------------
 
------------ HONORABLE MENTIONS -----------
+
+","----------- HONORABLE MENTIONS -----------
 ^cyan;Moon Studios^reset;
 ^cornflowerblue;The Lights of Nibel Discord ^gray;(c8ADTsX, Invite may expire)^reset;
 ^#FFFF82;Art of Nibel Discord ^gray;(rXJhRjh, Invite may expire)^reset;
-^violet;Starbound Discord ^#4B3877;(Ask for a Spirit Guardian race <3)^reset;"
+^violet;Starbound Discord ^#4B3877;(Ask for a Spirit Guardian race c:)^reset;"
 	],
 	"itemConfig" : {
 		"rarity" : "common",

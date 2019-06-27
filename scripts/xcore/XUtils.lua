@@ -3,13 +3,25 @@
 --[[
 	API:
 	
-		XUtils:IsAnyNil(object[] args...)
-			Returns true if any of the specified arguments are nil. THIS WILL FAIL IF THE LAST ARGUMENT IN THE LIST IS NIL.
+		XUtils:IsAnyNil(object args...)
+			Returns true if any of the specified arguments are nil.
+			THIS WILL FAIL IF THE LAST ELEMENT IS NIL.
+			
+			You can resolve this by putting a dummy value at the end of your args, like the global var XNULL created by this script
+			For instance:
+			XUtils:IsAnyNil(a, b, c)
+				If c is nil, this will return false (aka "nothing is nil") due to how tables work in lua.
+				HOWEVER:
+			XUtils:IsAnyNil(a, b, c, XNULL)
+				If c is nil, this will return true because, as a result of the placeholder XNULL at the end, the table now has a hole in it where c would go.
+				
+			Unfortunately, there is no way to avoid this or automatically implement it. You must do this yourself.
 		
-		XUtils:CanFindContextVars(string[] args...)
+		XUtils:CanFindContextVars(string[] args..., boolean removeAutomaticError = false)
 			Returns true if the specified variables exist in _ENV. This is mainly intended for context-specific commands where access to certain objects (e.g. entity) are required.
-			All arguments MUST be strings (e.g. "entity" rather than entity)
-			Will print an error message to starbound.log if one of the vars is missing, but will NOT stop the game or the script.
+			All arguments MUST be strings (e.g. "entity" rather than entity), with the exception of the last argument which can be a boolean value.
+			If the last argument is NOT true, this will print an error message to starbound.log if one of the vars is missing. It will not stop the game.
+			If you wish to print your own error message, pass in `true` as the last argument.
 			
 		XUtils:PlaySound(Variant<table, string> soundOrList, vec2 position = entity.position())
 			Plays a sound or random selection from a list of sounds (depending on what you input to the function) at the specified position.
@@ -22,11 +34,17 @@ require("/scripts/util.lua")
 require("/scripts/xcore/LoggingOverride.lua")
 
 XUtils = {}
+XNULL = "\0" --A placeholder value to represent a null object. Used in XUtils::IsAnyNil by the user calling the function as a just-in-case for if the last object they specify might be nil.
 
 -- Returns true if any of the values specified as arguments are nil.
 -- WARNING: FAILS IF THE LAST ARGUMENT IS NIL.
 function XUtils:IsAnyNil(...)
 	local Array = {...}
+	if #Array == 1 and type(Array[1]) == "table" then
+		-- Catch case for if a user inputs a table.
+		Array = Array[1]
+	end
+	
 	for Index = 1, #Array do
 		if Array[Index] == nil then
 			return true
@@ -37,7 +55,7 @@ end
 
 -- Similar to IsAnyNil but looks for environment vars specifically.
 -- You ***MUST*** pass in string values (e.g. "entity" rather than entity)
--- Automatically prints an error message specifying which vars are missing.
+-- Automatically prints an error message specifying which vars are missing, unless the last argument is true.
 function XUtils:CanFindContextVars(...)
 	local Array = {...}
 	if #Array == 1 and type(Array[1]) == "table" then
@@ -46,14 +64,17 @@ function XUtils:CanFindContextVars(...)
 	end
 
 	local MissingVars = {}
-	for Index, Value in pairs(Array) do
+	for Index, Value in ipairs(Array) do
+		if Index == #Array and Value == true then
+			break -- Last index, and it's `true` which means when the user wants to disable error printing. Don't factor this in to the missing vars.
+		end
 		if not _ENV[Value] then
 			table.insert(MissingVars, Value)
 		end
 	end
 	
-	if #MissingVars > 0 then
-		error("Failed to call XUtils function due to incorrect environment state. [Missing required environment variables: " .. table.concat(MissingVars, ", ") .. "]")
+	if #MissingVars > 0 and Array[#Array] ~= true then
+		error("[XUtils :: CanFindContextVars] This script has an invalid environment! [Missing environment variables: " .. table.concat(MissingVars, ", ") .. "]")
 		return false
 	end
 	return true
@@ -77,7 +98,7 @@ function XUtils:PlaySound(soundOrList, position)
 	end
 	
 	-- And now: The hackiest thing you will see in a while.
-	world.spawnProjectile("invisibleprojectile", Position, nil, {0,0}, false, 
+	world.spawnProjectile("invisibleprojectile", position, nil, {0,0}, false, 
 	{
 		timeToLive = 0,
 		actionOnReap = {
