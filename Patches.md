@@ -2,6 +2,16 @@
 
 Here you can see the updates made to the mod.
 
+# Version 1.5.1
+Released 27 Jun 2019 at 1:11 PM Central
+
+## Changes
+```diff
++ Added internal option to radio message chatter sent by the custom event system to use Sein voice lines. These lines are not implemented due to them being quite invasive. If CF adds mod config files, this will be configurable.
+* Changed functionality of some passive event scripts
+* Changed text of one of the passive messages.
+``` 
+
 # Version 1.5.0
 Released 10 May 2019 at 11:07 PM Central
 
