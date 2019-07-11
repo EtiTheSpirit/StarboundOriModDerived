@@ -30,6 +30,7 @@ local SEIN_CHATTER_SOUNDS = {
 }
 
 local DEBUG_SWITCH_TEST_DIALOG = false;
+local DEBUG_PLAY_SEIN_VOICE_LINES = false;
 
 function init()
 	local Year, Month, Day = CurrentDate()
@@ -82,13 +83,15 @@ function postinit()
 	-- if self.tempPollMessage then
 		-- self.tempPollMessage:SendToEntityInWorld(entity, world)
 	-- end
-	if self.isOrisBirthday and self.oriBirthdayMessage then
-		self.oriBirthdayMessage:SendToEntityInWorld(entity, world)
-		XUtils:PlaySound(SEIN_CHATTER_SOUNDS.MEDIUM, entity.position())
-	end
-	if self.isXansBirthday and self.xanBirthdayMessage then
-		self.xanBirthdayMessage:SendToEntityInWorld(entity, world)
-		XUtils:PlaySound(SEIN_CHATTER_SOUNDS.MEDIUM, entity.position())
+	if DEBUG_PLAY_SEIN_VOICE_LINES then
+		if self.isOrisBirthday and self.oriBirthdayMessage then
+			self.oriBirthdayMessage:SendToEntityInWorld(entity, world)
+			XUtils:PlaySound(SEIN_CHATTER_SOUNDS.MEDIUM, entity.position())
+		end
+		if self.isXansBirthday and self.xanBirthdayMessage then
+			self.xanBirthdayMessage:SendToEntityInWorld(entity, world)
+			XUtils:PlaySound(SEIN_CHATTER_SOUNDS.MEDIUM, entity.position())
+		end
 	end
 end
 

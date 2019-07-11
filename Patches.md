@@ -2,8 +2,18 @@
 
 Here you can see the updates made to the mod.
 
+# Version 1.5.3
+Released 11 Jul 2019 at 2:16 PM Central
+
+## Changes
+```diff
+* Fixed issue where a Sein voice line would play every time you teleported.
+``` 
+
+***
+
 # Version 1.5.2
-Released 1 Jul 2019 at 11:12 PM Central
+Released 11 Jul 2019 at 11:12 AM Central
 
 ## Changes
 ```diff
