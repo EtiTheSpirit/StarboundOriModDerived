@@ -29,7 +29,7 @@ local SEIN_CHATTER_SOUNDS = {
 	SHORT = {"/sfx/interface/sein/standard/oriSpeechMedF.ogg", "/sfx/interface/sein/standard/oriSpeechMedG.ogg", "/sfx/interface/sein/standard/oriSpeechShortB.ogg", "/sfx/interface/sein/standard/oriSpeechShortC.ogg", "/sfx/interface/sein/standard/oriSpeechShortD.ogg", "/sfx/interface/sein/standard/oriSpeechShortE.ogg", "/sfx/interface/sein/standard/oriSpeechShortF.ogg", "/sfx/interface/sein/standard/oriSpeechShortG.ogg", "/sfx/interface/sein/standard/oriSpeechShortH.ogg", "/sfx/interface/sein/standard/oriSpeechShortI.ogg", "/sfx/interface/sein/standard/oriSpeechShortJ.ogg"};
 }
 
-local DEBUG_SWITCH_TEST_DIALOG = true;
+local DEBUG_SWITCH_TEST_DIALOG = false;
 
 function init()
 	local Year, Month, Day = CurrentDate()

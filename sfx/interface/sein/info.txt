@@ -1,0 +1,7 @@
+The "ext_oneshot" folder is intended for use in radio messages and such. It has
+extra audio trim all the way to 30 seconds. When these are used in the
+chatterSound parameter of a radio message, it should only play the sound once
+due to the length *generally* being higher than a radio message (only extreme
+cases may have a single message longer than 30s, causing the sound to loop)
+
+The "standard" folder is just the ripped audio from the game in ogg format.

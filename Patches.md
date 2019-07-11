@@ -2,6 +2,16 @@
 
 Here you can see the updates made to the mod.
 
+# Version 1.5.2
+Released 1 Jul 2019 at 11:12 PM Central
+
+## Changes
+```diff
+* Fixed issue where I left the debug switch for dialog on. The messages should no longer appear every time you teleport.
+``` 
+
+***
+
 # Version 1.5.1
 Released 27 Jun 2019 at 1:11 PM Central
 
@@ -11,7 +21,7 @@ Released 27 Jun 2019 at 1:11 PM Central
 * Changed functionality of some passive event scripts
 * Changed text of one of the passive messages.
 ``` 
-
+***
 # Version 1.5.0
 Released 10 May 2019 at 11:07 PM Central
 
