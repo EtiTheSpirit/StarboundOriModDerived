@@ -7,5 +7,5 @@
 	{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value": { "item": "spiritguardianbed" } },
 	{ "op" : "add", "path" : "/deploymentConfig/scripts/-", "value" : "/scripts/DeathSoundHandler.lua"},
 	{ "op" : "add", "path" : "/deploymentConfig/scripts/-", "value" : "/scripts/PassiveEvents.lua"},
-	{ "op" : "add", "path": "/deploymentConfig/scripts/-", "value": "/scripts/xcore/PlayerReplicator.lua" }
+	{ "op" : "add", "path" : "/deploymentConfig/scripts/-", "value": "/scripts/xcore/PlayerReplicator.lua" }
 ]
