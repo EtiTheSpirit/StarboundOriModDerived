@@ -2,6 +2,18 @@
 
 Here you can see the updates made to the mod.
 
+***
+
+# Version 1.6
+Released 11 Jul 2019 at 2:16 PM Central
+
+## Changes
+```diff
++ Appended respawnharcore.cinematic for Frackin' Universe compatibility.
+``` 
+
+***
+
 # Version 1.5.3
 Released 11 Jul 2019 at 2:16 PM Central
 
