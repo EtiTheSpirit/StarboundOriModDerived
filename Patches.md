@@ -12,8 +12,6 @@ Released 15 Feb 2020 at 5:25 PM Central
 ```
 
 ***
-
-***
 Released 15 Feb 2020 -- time undocumented
 
 # Version 1.7
