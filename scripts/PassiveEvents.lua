@@ -4,7 +4,9 @@ require("/scripts/interp.lua")
 require("/scripts/xcore/LuaRadioMessage.lua")
 require("/scripts/xcore/InitializationUtility.lua")
 require("/scripts/xcore/XUtils.lua")
-require("/scripts/api/XModConfig.lua")
+require("/scripts/xmodcfg_util/XModConfigProxy.lua")
+
+local XModConfig
 
 local OLD_INIT_FUNC_LOCAL = init
 
@@ -63,6 +65,13 @@ function init()
 		--chatterSound = SEIN_CHATTER_SOUNDS.MEDIUM[math.random(1, #SEIN_CHATTER_SOUNDS.MEDIUM)];
 	})
 	
+	self.updateMessage = LuaRadioMessage:NewMessage({
+		text = "^yellow;[NEW OPTIONAL UPDATE] ^reset;The mod has been updated and now leverages ^orange;XModConfig^reset;. ^cornflowerblue;This allows you to enable or disable certain features of this mod. ^reset;You can find it on the Steam Workshop by searching ^orange;XModConfig^reset;.";
+		persistTime = 10;
+		unique = true;
+		messageId = "modUpdate-2162020";
+	})
+	
 	--Poll's over! Check species folder for more info.
 	--[[
 	self.tempPollMessage = LuaRadioMessage:NewMessage({
@@ -88,7 +97,16 @@ function postinit()
 		-- self.tempPollMessage:SendToEntityInWorld(entity, world)
 	-- end
 	
-	local cfg = XModConfig:Instantiate("OriModRedux")
+	self.updateMessage:SendToEntityInWorld(entity, world)
+	
+	XModConfig = TryGetXModConfig()
+	
+	local cfg
+	if XModConfig ~= nil then
+		cfg = XModConfig:Instantiate("OriModRedux")
+	else
+		sb.logInfo("Config is null.")
+	end
 	
 	local messagesEnabled = true --cfg:Get("eventMessagesEnabled", true)
 	local useSeinSounds = false --cfg:Get("useSeinVoiceSounds", false)

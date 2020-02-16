@@ -2,9 +2,35 @@
 
 Here you can see the updates made to the mod.
 
+# Version 1.7.1
+
+***
+```diff
++ Added XModConfigProxy which should resolve the errors users were getting due to not having XModConfig
++ Added a one-off message to encourage users to actually install XModConfig (since it's really handy)
+```
+
+***
+
+***
+
+# Version 1.7
+```diff
++ Added support for XModConfig (enable/disable features for this mod on the fly!)
++ New easter egg message for March 11, 2020
+```
+
 ***
 
 # Version 1.6
+
+```diff
++ Added two new items, mecharmspiritbeam and mecharmlightcannon, which are not ready for production use but can be spawned in as needed. Known issue: The light cannon is wildly overpowered in FU.
+```
+
+***
+
+# Version 1.5.4
 Released 11 Jul 2019 at 2:16 PM Central
 
 ## Changes

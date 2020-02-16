@@ -1,4 +1,8 @@
 [
+	{
+		"op" : "test",
+		"path" : "/ModsWithConfig"
+	},
 	{ 
 		"op": "add", 
 		"path": "/ModsWithConfig/OriModRedux", 
