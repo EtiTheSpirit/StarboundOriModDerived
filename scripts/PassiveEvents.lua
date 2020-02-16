@@ -97,15 +97,14 @@ function postinit()
 		-- self.tempPollMessage:SendToEntityInWorld(entity, world)
 	-- end
 	
-	self.updateMessage:SendToEntityInWorld(entity, world)
-	
 	XModConfig = TryGetXModConfig()
 	
 	local cfg
 	if XModConfig ~= nil then
 		cfg = XModConfig:Instantiate("OriModRedux")
 	else
-		sb.logInfo("Config is null.")
+		sb.logInfo("XModConfig is not installed.")
+		self.updateMessage:SendToEntityInWorld(entity, world)
 	end
 	
 	local messagesEnabled = true --cfg:Get("eventMessagesEnabled", true)
