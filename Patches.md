@@ -3,6 +3,7 @@
 Here you can see the updates made to the mod.
 
 # Version 1.7.1
+Released 15 Feb 2020 at 5:25 PM Central
 
 ***
 ```diff
@@ -13,6 +14,7 @@ Here you can see the updates made to the mod.
 ***
 
 ***
+Released 15 Feb 2020 -- time undocumented
 
 # Version 1.7
 ```diff
@@ -21,6 +23,7 @@ Here you can see the updates made to the mod.
 ```
 
 ***
+Date and time undocumented.
 
 # Version 1.6
 
