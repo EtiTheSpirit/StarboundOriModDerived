@@ -9,7 +9,7 @@ Released 11 Jul 2019 at 2:16 PM Central
 
 ## Changes
 ```diff
-+ Appended respawnharcore.cinematic for Frackin' Universe compatibility.
++ Appended respawnhardcore.cinematic for Frackin' Universe compatibility.
 ``` 
 
 ***

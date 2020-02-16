@@ -6,22 +6,18 @@
 		XUtils:IsAnyNil(object args...)
 			Returns true if any of the specified arguments are nil.
 			THIS WILL FAIL IF THE LAST ELEMENT IS NIL.
-			
 			You can resolve this by putting a dummy value at the end of your args, like the global var XNULL created by this script
 			For instance:
 			XUtils:IsAnyNil(a, b, c)
-				If c is nil, this will return false (aka "nothing is nil") due to how tables work in lua.
+				If c is nil, this will return false (aka "nothing is nil" due to how tables work in lua.)
 				HOWEVER:
 			XUtils:IsAnyNil(a, b, c, XNULL)
 				If c is nil, this will return true because, as a result of the placeholder XNULL at the end, the table now has a hole in it where c would go.
-				
-			Unfortunately, there is no way to avoid this or automatically implement it. You must do this yourself.
 		
-		XUtils:CanFindContextVars(string[] args..., boolean removeAutomaticError = false)
+		XUtils:CanFindContextVars(string[] args...)
 			Returns true if the specified variables exist in _ENV. This is mainly intended for context-specific commands where access to certain objects (e.g. entity) are required.
-			All arguments MUST be strings (e.g. "entity" rather than entity), with the exception of the last argument which can be a boolean value.
-			If the last argument is NOT true, this will print an error message to starbound.log if one of the vars is missing. It will not stop the game.
-			If you wish to print your own error message, pass in `true` as the last argument.
+			All arguments MUST be strings (e.g. "entity" rather than entity)
+			Will print an error message to starbound.log if one of the vars is missing, but will NOT stop the game or the script.
 			
 		XUtils:PlaySound(Variant<table, string> soundOrList, vec2 position = entity.position())
 			Plays a sound or random selection from a list of sounds (depending on what you input to the function) at the specified position.
@@ -39,14 +35,14 @@ XNULL = "\0" --A placeholder value to represent a null object. Used in XUtils::I
 -- Returns true if any of the values specified as arguments are nil.
 -- WARNING: FAILS IF THE LAST ARGUMENT IS NIL.
 function XUtils:IsAnyNil(...)
-	local Array = {...}
-	if #Array == 1 and type(Array[1]) == "table" then
+	local array = {...}
+	if #array == 1 and type(array[1]) == "table" then
 		-- Catch case for if a user inputs a table.
-		Array = Array[1]
+		array = array[1]
 	end
 	
-	for Index = 1, #Array do
-		if Array[Index] == nil then
+	for index = 1, #array do
+		if array[index] == nil then
 			return true
 		end
 	end
@@ -55,26 +51,23 @@ end
 
 -- Similar to IsAnyNil but looks for environment vars specifically.
 -- You ***MUST*** pass in string values (e.g. "entity" rather than entity)
--- Automatically prints an error message specifying which vars are missing, unless the last argument is true.
+-- Automatically prints an error message specifying which vars are missing.
 function XUtils:CanFindContextVars(...)
-	local Array = {...}
-	if #Array == 1 and type(Array[1]) == "table" then
+	local array = {...}
+	if #array == 1 and type(array[1]) == "table" then
 		-- Catch case for if a user inputs a table.
-		Array = Array[1]
+		array = array[1]
 	end
 
-	local MissingVars = {}
-	for Index, Value in ipairs(Array) do
-		if Index == #Array and Value == true then
-			break -- Last index, and it's `true` which means when the user wants to disable error printing. Don't factor this in to the missing vars.
-		end
-		if not _ENV[Value] then
-			table.insert(MissingVars, Value)
+	local missingVars = {}
+	for index, value in pairs(array) do
+		if not _ENV[value] then
+			table.insert(missingVars, value)
 		end
 	end
 	
-	if #MissingVars > 0 and Array[#Array] ~= true then
-		error("[XUtils :: CanFindContextVars] This script has an invalid environment! [Missing environment variables: " .. table.concat(MissingVars, ", ") .. "]")
+	if #missingVars > 0 then
+		error("Failed to call XUtils function due to incorrect environment state. [Missing required environment variables: " .. table.concat(MissingVars, ", ") .. "]")
 		return false
 	end
 	return true

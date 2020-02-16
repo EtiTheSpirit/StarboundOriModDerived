@@ -22,7 +22,7 @@ I guess a postcard will have to do, then. ^cyan;Happy Birthday, Ori!",
       "default" : "sail"
     },
 	"descriptions": {
-	  "talkToSail" : "Disscuss a plan with your S.A.I.L."
+	  "talkToSail" : "Disscuss a plan to celebrate Ori's birthday with your S.A.I.L."
 	},
 	
 	"compassUpdate" : 0.2,

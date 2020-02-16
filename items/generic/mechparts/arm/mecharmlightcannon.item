@@ -1,0 +1,15 @@
+{
+  "itemName" : "mecharmlightcannon",
+  "price" : 6600,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "mechPart",
+  "tooltipKind" : "mecharm",
+  "builder" : "/items/buildscripts/buildmechpart.lua",
+  "inventoryIcon" : "mecharmlightcannon.png",
+  "description" : "Creates large clusters of Spirit Light energy and throws them like grenades.",
+  "shortdescription" : "Light Grenade Launcher",
+  "itemTags" : [ ],
+
+  "mechPart" : ["arm", "lightcannon"]
+}

@@ -1,0 +1,12 @@
+[
+	{
+		"op": "replace",
+		"path": "/scriptConfig/missionRadioMessage/messageId",
+		"value": "humanmissionunlocked-spiritguardian"
+	},
+	{
+		"op": "replace",
+		"path": "/scriptConfig/missionRadioMessage/text",
+		"value": "Ah! Here we are. I've just grabbed the coordinates to the ^orange;Erchius Mining Facility^reset;. If you ^green;return to the ship^reset;, I can provide you a means of getting there."
+	}
+]

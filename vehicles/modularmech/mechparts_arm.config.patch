@@ -1,0 +1,216 @@
+[
+	[
+		{
+			"op": "add",
+			"path": "/spiritbeam",
+			"value" : { 
+				"stats" : {
+					// These stats are used by FU. They are ignored by non-FU, so having them here is perfectly safe.
+					"basePower" : 1.5,
+					"mechMass": 2.8,
+					"power" : 6,
+					"energy" : 6
+				},
+				"partParameters" : {
+					"script" : "/vehicles/modularmech/armscripts/beamarmdynlength.lua",
+					"armClass" : "BeamArm",
+
+					"rotationLimits" : [-1.75, 1.75],
+					"fireOffset" : [3.25, 0],
+
+					"windupTime" : 0.2,
+					"fireTime" : 0.1,
+					"winddownTime" : 0.4,
+
+					"repeatFire" : true,
+					"lockAim" : false,
+					
+					"endAtCursor" : true,
+					
+					"beamSourceOffset" : [3.25, 2.5625],
+					"beamHeight" : 0.5,
+					"beamLength" : 60, // Obsolete for endAtCursor
+					"maxBeamLength" : 90,
+					"beamParticleDensity" : 0.75,
+					"beamTileDamage" : 0,
+					"beamTileDamageDepth" : 2
+				},
+				"damageSources" : {
+					"<armName>Beam" : {
+						"enabled" : false,
+						"attachToPart" : "<armName>",
+
+						"line" : [ [3.25, 2.5], [33.25, 2.5] ],
+						"damage" : 22,
+						"damageSourceKind" : "fireplasma",
+						"damageRepeatTimeout" : 0.1,
+						"damageRepeatGroup" : "<armName>Beam",
+						"knockback" : 0,
+
+						"rayCheck" : true
+					}
+				},
+				"partImages" : {
+					"<armName>" : "arm/spiritbeam.png",
+					"<armName>Fullbright" : "arm/spiritbeam_fullbright.png"
+				},
+				"defaultPrimaryColors" : ["f4988c", "d93a3a", "932625", "601119"],
+				"defaultSecondaryColors" : ["e6e6e6", "b6b6b6", "7b7b7b", "373737"],
+				"animationCustom" : {
+					"animatedParts" : {
+						"stateTypes" : {
+							"<armName>" : { 
+								"states" : {
+									"active" : {
+										"properties" : {
+											"persistentSound" : "/sfx/weapon/mech/laserLoopMangroveFallsC.ogg",
+											"persistentSoundStopTime" : 0.5
+										},
+										"cycle" : 0.1
+									},
+									"windup" : {
+										"cycle" : 0.2
+									},
+									"winddown" : {
+										"cycle" : 0.4
+									}
+								}
+							},
+							"<armName>Beam" : {
+								"default" : "off",
+								"states" : {
+									"off" : {},
+									"fire" : {
+										"frames" : 4,
+										"cycle" : 0.25,
+										"mode" : "transition",
+										"transition" : "off"
+									}
+								}
+							}
+						},
+						"parts" : {
+							"<armName>Beam" : {
+								"properties" : {
+									"zLevel" : 10,
+									"offset" : [3.25, 2.0625],
+									"anchorPart" : "<armName>",
+									"fullbright" : true,
+									"centered" : false,
+									"transformationGroups" : ["<armName>Beam"]
+								},
+								"partStates" : {
+									"<armName>Beam" : {
+										"fire" : {
+											"properties" : {
+												"image" : "/vehicles/modularmech/beam/spiritbeam.png:<frame>"
+											}
+										}
+									}
+								}
+							}
+						}
+					},
+					"particleEmitters" : {
+						"<armName>Beam" : {
+							"active" : false,
+							"anchorPart" : "<armName>",
+							"particles" : [
+								{ 
+									"particle" : {
+										"type" : "ember",
+										"fullbright" : true,
+										"color" : [147, 244, 255, 150],
+										"light" : [147, 244, 255],
+										"fade" : 0.5,
+										"destructionAction" : "shrink",
+										"destructionTime" : 0.25,
+										"initialVelocity" : [0, 0],
+										"timeToLive" : 0.4,
+										"layer" : "middle",
+										"variance" : {
+											"initialVelocity" : [1, 1],
+											"timeToLive" : 0.2
+										}
+									} 
+								}
+							]
+						}
+					},
+					"transformationGroups" : {
+						"<armName>Beam" : {}
+					},
+					"sounds" : {
+						"<armName>Windup" : [ "/sfx/weapon/mech/laserBeamStartA.ogg", "/sfx/weapon/mech/laserBeamStartB.ogg", "/sfx/weapon/mech/laserBeamStartC.ogg" ],
+						"<armName>WinddownNoFire" : [],
+						"<armName>Winddown" : [ "/sfx/weapon/mech/laserBeamEndA.ogg", "/sfx/weapon/mech/laserBeamEndB.ogg", "/sfx/weapon/mech/laserBeamEndC.ogg" ],
+						"<armName>Fire" : []
+					}
+				}
+			}
+		},
+		{
+			"op": "add",
+			"path": "/lightcannon",
+			"value" : { 
+				"stats" : {
+					"mechMass" : 4.2,
+					"power" : 5,
+					"energy" : 6
+				},
+				"partParameters" : {
+					"script" : "/vehicles/modularmech/armscripts/gunarm.lua",
+					"armClass" : "GunArm",
+
+					"rotationLimits" : [-1.75, 1.75],
+					"fireOffset" : [3.75, -0.0125],
+
+					"extendTime" : 1.0,
+
+					"fireTime" : 0.58,
+
+					"projectileType" : "armlightcannonfire",
+					"projectileParameters" : {
+						"power" : 150
+					}
+				},
+				"partImages" : {
+					"<armName>" : "arm/lightcannon.png",
+					"<armName>Fullbright" : "arm/lightcannon_fullbright.png"
+				},
+				"defaultPrimaryColors" : ["8da6b0", "657988", "434d5e", "313247"],
+				"defaultSecondaryColors" : ["fbdf71", "d9b035", "a26f03", "664601"],
+				"animationCustom" : {
+					"sounds" : {
+						"<armName>Fire" : ["/sfx/gun/pulsecannon_blast1.ogg"]
+					}
+				}
+			}
+		}
+	],
+	[
+		// Here's the kicker. Let's just look at a random vanilla item.
+		// If a "mechMass" stat is appended and exists, that means FU has done something to the game, and by extension, it is installed.
+		// This is a really disgusting solution but it's about all I can do.
+		{
+			"op": "test",
+			"path": "/flakcannon/stats/mechMass"
+		},
+		
+		//////////////////////////////////////////////////////
+		// IF WE'VE MADE IT HERE, WE HAVE FRACKIN UNIVERSE. //
+		//////////////////////////////////////////////////////
+		
+		// Let's update our values so that they contain information FU needs.
+		{
+			"op": "replace",
+			"path": "/spiritbeam/damageSources/<armName>Beam/damage",
+			"value": 0
+		},
+		{
+			"op": "replace",
+			"path": "/lightcannon/partParameters/projectileParameters/power",
+			"value": 10
+		}
+	]
+]

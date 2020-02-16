@@ -1,11 +1,13 @@
-require "/scripts/vec2.lua"
-require "/scripts/util.lua"
-require "/scripts/interp.lua"
-require "/scripts/xcore/LuaRadioMessage.lua"
-require "/scripts/xcore/InitializationUtility.lua"
-require "/scripts/xcore/XUtils.lua"
+require("/scripts/vec2.lua")
+require("/scripts/util.lua")
+require("/scripts/interp.lua")
+require("/scripts/xcore/LuaRadioMessage.lua")
+require("/scripts/xcore/InitializationUtility.lua")
+require("/scripts/xcore/XUtils.lua")
+require("/scripts/api/XModConfig.lua")
 
 local OLD_INIT_FUNC_LOCAL = init
+
 
 -- Naming convention:
 -- GAME_(length)	= Audio files denoted of a specific length ("short", "med", "long") based on the game's internal filename.
@@ -29,9 +31,6 @@ local SEIN_CHATTER_SOUNDS = {
 	SHORT = {"/sfx/interface/sein/standard/oriSpeechMedF.ogg", "/sfx/interface/sein/standard/oriSpeechMedG.ogg", "/sfx/interface/sein/standard/oriSpeechShortB.ogg", "/sfx/interface/sein/standard/oriSpeechShortC.ogg", "/sfx/interface/sein/standard/oriSpeechShortD.ogg", "/sfx/interface/sein/standard/oriSpeechShortE.ogg", "/sfx/interface/sein/standard/oriSpeechShortF.ogg", "/sfx/interface/sein/standard/oriSpeechShortG.ogg", "/sfx/interface/sein/standard/oriSpeechShortH.ogg", "/sfx/interface/sein/standard/oriSpeechShortI.ogg", "/sfx/interface/sein/standard/oriSpeechShortJ.ogg"};
 }
 
-local DEBUG_SWITCH_TEST_DIALOG = false;
-local DEBUG_PLAY_SEIN_VOICE_LINES = false;
-
 function init()
 	local Year, Month, Day = CurrentDate()
 	self.isOrisBirthday = (Month == 3 and Day == 11)
@@ -46,15 +45,20 @@ function init()
 		-- I did use GetNumberWithEnding(oriYear) but due to rewording I can just use the number.
 		text = "I thought I'd let you know that today marks ^#99BBFF;Nibel^reset;'s ^green;" .. tostring(oriYear) .. "^reset; year anniversary recognizing ^cyan;Ori^reset;'s legendary journey. I've sent a spiritual message on your behalf. You can thank me later.";
 		
-		unique = not DEBUG_SWITCH_TEST_DIALOG;
+		unique = true;
 		messageId = "oribirthday" .. oriYear;
 		--chatterSound = SEIN_CHATTER_SOUNDS.MEDIUM[math.random(1, #SEIN_CHATTER_SOUNDS.MEDIUM)];
 	})
 	
+	if Year == 2020 then
+		self.oriBirthdayMessage.portraitImage = "yell.<frame>"
+		self.oriBirthdayMessage.text = "What are you doing playing ^yellow;Starbound^reset;?! Don't you know ^cyan;Ori and the Will of the Wisps ^reset;released ^green;today^reset;? You should be out experiencing pure beauty, not playing this!"
+	end
+	
 	self.xanBirthdayMessage = LuaRadioMessage:NewMessage({
 		text = "Today is ^#FF3F00;Xan^reset;'s ^green;" .. GetNumberWithEnding(xanYear) .. " ^gray;(" .. GetNumberWithEnding(realXanYear) .. ")^reset; birthday. You probably don't know who he is, but he's responsible for proposing the annexation of ^#99BBFF;Nibel^reset; into ^yellow;The Protectorate.";
 		persistTime = 10;
-		unique = not DEBUG_SWITCH_TEST_DIALOG;
+		unique = true;
 		messageId = "xanbirthday" .. realXanYear;
 		--chatterSound = SEIN_CHATTER_SOUNDS.MEDIUM[math.random(1, #SEIN_CHATTER_SOUNDS.MEDIUM)];
 	})
@@ -83,14 +87,45 @@ function postinit()
 	-- if self.tempPollMessage then
 		-- self.tempPollMessage:SendToEntityInWorld(entity, world)
 	-- end
-	if DEBUG_PLAY_SEIN_VOICE_LINES then
-		if self.isOrisBirthday and self.oriBirthdayMessage then
+	
+	local cfg = XModConfig:Instantiate("OriModRedux")
+	
+	local messagesEnabled = true --cfg:Get("eventMessagesEnabled", true)
+	local useSeinSounds = false --cfg:Get("useSeinVoiceSounds", false)
+	local debugAlwaysSendEvent = false --cfg:Get("debugAlwaysRunMessage", false)
+	
+	if cfg ~= nil and cfg.ReferenceType ~= 2 then
+		messagesEnabled = cfg:Get("eventMessagesEnabled", true)
+		useSeinSounds = cfg:Get("useSeinVoiceSounds", false)
+		debugAlwaysSendEvent = cfg:Get("debugAlwaysRunMessage", false)
+	end
+	
+	--sb.logInfo("messages? " .. tostring(messagesEnabled))
+	--sb.logInfo("sein sounds? " .. tostring(useSeinSounds))
+	--sb.logInfo("always run? " .. tostring(debugAlwaysSendEvent))
+	
+	local year = CurrentDate()
+	
+	if messagesEnabled == true then
+		if (self.isOrisBirthday or debugAlwaysSendEvent) and self.oriBirthdayMessage then
+			if debugAlwaysSendEvent then 
+				self.oriBirthdayMessage.unique = false
+				self.oriBirthdayMessage.messageId = tostring(math.random())
+			end
 			self.oriBirthdayMessage:SendToEntityInWorld(entity, world)
-			XUtils:PlaySound(SEIN_CHATTER_SOUNDS.MEDIUM, entity.position())
+			if useSeinSounds then 
+				if year == 2020 then
+					XUtils:PlaySound("/sfx/interface/sein/urgent/oriSpeechUrgentShortD.ogg", entity.position())
+					return
+				end
+				XUtils:PlaySound(SEIN_CHATTER_SOUNDS.MEDIUM, entity.position())
+			end
 		end
+		
+		-- this one doesn't count
 		if self.isXansBirthday and self.xanBirthdayMessage then
 			self.xanBirthdayMessage:SendToEntityInWorld(entity, world)
-			XUtils:PlaySound(SEIN_CHATTER_SOUNDS.MEDIUM, entity.position())
+			if useSeinSounds then XUtils:PlaySound(SEIN_CHATTER_SOUNDS.MEDIUM, entity.position()) end
 		end
 	end
 end
