@@ -14,7 +14,7 @@ function init()
 	self.deathSoundFx = self.playerSpeciesFile["deathNoises"] or DEFAULT_DEATH_NOISE_ARRAY
 end
 
-function wouldDieOnThisFrame()
+local function WouldDieOnThisFrame()
 	--Is our health zero?
 	if status.stat("health") == 0 then
 		return true
@@ -38,7 +38,7 @@ end
 function uninit()
 	if olduninit then olduninit() end
 	
-	if wouldDieOnThisFrame() and self.deathSoundFx and #self.deathSoundFx > 0 then
+	if WouldDieOnThisFrame() and self.deathSoundFx and #self.deathSoundFx > 0 then
 		world.spawnProjectile("invisibleprojectile", entity.position(), player.id(), {0,0}, false, 
 		{
 			timeToLive = 0,
