@@ -1,12 +1,13 @@
 {
 	"id" : "spiritguardiancredits",
+	"species" : "spiritguardian",
 	"title" : "Ori Mod Credits",
 	"description" : "Credits to those who extended a helping hand in the design of the mod.",
 	"icon" : "spiritguardianpapercover3.png",
 	"contentPages" : [
 "--------------- CORE USERS ---------------
-^#FF3F00;Xan the Dragon^reset;
- > Mod Redux / new content
+^#FF3F00;Xan the Dragon^reset; // ^#B2FFE9;Eti the Spirit^reset;
+ > Redux and all new content
 
 ^green;Dustfox^reset; & ^green;Catfox^reset;
  > Original Mod
@@ -20,9 +21,9 @@
 
 ","----------- HONORABLE MENTIONS -----------
 ^cyan;Moon Studios^reset;
+^violet;Official Ori the Game Discord ^#4B3877;discord.gg/orithegame^reset;
 ^cornflowerblue;The Lights of Nibel Discord ^gray;(c8ADTsX, Invite may expire)^reset;
-^#FFFF82;Art of Nibel Discord ^gray;(rXJhRjh, Invite may expire)^reset;
-^violet;Starbound Discord ^#4B3877;(Ask for a Spirit Guardian race c:)^reset;"
+^#FFFF82;Art of Nibel Discord ^gray;(rXJhRjh, Invite may expire)^reset;"
 	],
 	"itemConfig" : {
 		"rarity" : "common",

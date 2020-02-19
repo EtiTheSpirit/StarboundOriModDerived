@@ -1,5 +1,6 @@
 {
 	"id" : "spiritguardianfirstgeneration",
+	"species" : "spiritguardian",
 	"title" : "Goodbye, Nibel.",
 	"description" : "An ancient document written by one of the first Spirits to ever leave their homeworld.",
 	"icon" : "spiritguardianpapercover0.png",

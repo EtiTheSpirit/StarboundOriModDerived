@@ -1,5 +1,6 @@
 {
 	"id" : "spiritguardiandiary0",
+	"species" : "spiritguardian",
 	"title" : "Eda's Story",
 	"description" : "A diary belonging to a Spirit named 'Eda'. It looks like it hasn't been touched for quite some time.",
 	"icon" : "spiritguardianpapercover1.png",

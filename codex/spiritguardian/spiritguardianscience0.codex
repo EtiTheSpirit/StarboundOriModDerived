@@ -1,5 +1,6 @@
 {
 	"id" : "spiritguardianscience0",
+	"species" : "spiritguardian",
 	"title" : "Spirits and Technology",
 	"description" : "This codex documents the interactions between Spirit energy and technology.",
 	"icon" : "spiritguardiantablet1.png",

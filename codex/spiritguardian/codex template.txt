@@ -1,5 +1,6 @@
 {
 	"id" : "",
+	"species" : "spiritguardian",
 	"title" : "",
 	"description" : "",
 	"icon" : "",

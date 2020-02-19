@@ -97,6 +97,8 @@ function postinit()
 		-- self.tempPollMessage:SendToEntityInWorld(entity, world)
 	-- end
 	
+	if player.species() ~= "spiritguardian" then return end
+	
 	XModConfig = TryGetXModConfig()
 	
 	local cfg
