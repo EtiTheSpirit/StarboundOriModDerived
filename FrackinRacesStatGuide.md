@@ -19,12 +19,11 @@ Most abilities in the source game are oriented to mobility. Refer to this YouTub
 
 * DAMAGE:
 + Bonus: +5% Resistance to Shadow and Cosmic damage sources.
+- Weakness: -20% Maximum Health
 - Weakness: -30% Resistance to Physical Damage
 - Weakness: -30% Resistance to Toxins
 - Weakness: -30% Resistance to Radioactivity
 - Weakness: -10% Resistance to Electrical Damage
-- Weakness: -20% Maximum Health
-
 
 * MISC:
 + Bonus: 80% Food Delta (Time travels at 80% speed in the scope of getting hungry)
