@@ -17,7 +17,7 @@ Most abilities in the source game are oriented to mobility. Refer to this YouTub
 + Bonus: Jungle Slow Immunity
 
 * DAMAGE:
-+ Bonus: +5% Resistance to Shadow and Cosmic damage sources.
++ Bonus: +5% Resistance to Shadow and Cosmic, and Cold damage sources.
 - Weakness: -20% Maximum Health
 - Weakness: -30% Resistance to Physical Damage
 - Weakness: -30% Resistance to Toxins
