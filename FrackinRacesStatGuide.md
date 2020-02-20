@@ -12,7 +12,6 @@ Most abilities in the source game are oriented to mobility. Refer to this YouTub
 * MOBILITY:
 + Bonus: +20% Move Speed
 + Bonus: +20% Jump Height
-+ Bonus: +40% Maximum Energy
 + Bonus: Fall Damage Immunity
 + Bonus: Mud Slow Immunity
 + Bonus: Jungle Slow Immunity
@@ -26,14 +25,13 @@ Most abilities in the source game are oriented to mobility. Refer to this YouTub
 - Weakness: -10% Resistance to Electrical Damage
 
 * MISC:
-+ Bonus: 80% Food Delta (Time travels at 80% speed in the scope of getting hungry)
-+ Bonus: Bioluminescent [Vanilla]
++ Bonus: Bioluminescent [Vanilla] (76% Novakid Glow) (Decreased from 83%)
++ Bonus: +30% Maximum Energy
+- Weakness: 107% Food Delta (increased from Bonus: 80%)
 
 * BIOMES: JUNGLE, FOREST, BOG, ARBOREAL
-+ Bonus: +15% Resistance (All Damage)
-+ Bonus: +10% Maximum Health
++ Bonus: +20% Resistance (All Damage)
 
 * EQUIPMENT BONUSES: STAVES, WANDS
-+ Bonus: +30% Attack Power 
-+ Bonus: +10% Resistance (All Damage)
++ Bonus: +12% Attack Power (Decreased from 30%)
 ```
