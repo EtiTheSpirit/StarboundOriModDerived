@@ -17,12 +17,15 @@ Most abilities in the source game are oriented to mobility. Refer to this YouTub
 + Bonus: Jungle Slow Immunity
 
 * DAMAGE:
-+ Bonus: +5% Resistance to Shadow and Cosmic, and Cold damage sources.
++ Bonus: +10% Resistance to Shadow Damage
++ Bonus: +10% Resistance to Cosmic Damage
++ Bonus: +10% Resistance to Cold Damage
 - Weakness: -20% Maximum Health
 - Weakness: -30% Resistance to Physical Damage
 - Weakness: -30% Resistance to Toxins
 - Weakness: -30% Resistance to Radioactivity
-- Weakness: -10% Resistance to Electrical Damage
+- Weakness: -10% Resistance to Electricity
+- Weakness: -10% Resistance to Fire
 
 * MISC:
 + Bonus: Bioluminescent [Vanilla] (76% Novakid Glow) (Decreased from 83%)
@@ -30,7 +33,8 @@ Most abilities in the source game are oriented to mobility. Refer to this YouTub
 - Weakness: 107% Food Delta (increased from Bonus: 80%)
 
 * BIOMES: JUNGLE, FOREST, BOG, ARBOREAL
-+ Bonus: +20% Resistance (All Damage)
++ Bonus: +15% Resistance (All Damage)
++ Bonus: +10% Max Health (Net 90%)
 
 * EQUIPMENT BONUSES: STAVES, WANDS
 + Bonus: +12% Attack Power (Decreased from 30%)
