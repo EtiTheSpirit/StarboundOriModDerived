@@ -1,0 +1,24 @@
+An authorized + official edit and continuation of the Spirit Guardian Mod created by [url=https://steamcommunity.com/id/goldendustfox]Dustfox[/url] and [url=https://steamcommunity.com/id/PKNerdCatfox]Catfox[/url], featuring countless bugfixes and new custom-made features.
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1485177055][img]https://i.imgur.com/O4RkXOu.png[/img][/url]
+
+[b][u]You need to uninstall the other mod before you can use this one.[/u] If you wish to, you can back up your saves by duplicating the "storage" folder in the game directory.[/b]
+
+[h1]NEW: Mod Configuration Added![/h1]
+The ability to configure your mods via my latest creation, XModConfig, is here! This mod can use it.
+https://steamcommunity.com/sharedfiles/filedetails/?id=1998921194
+
+[img]https://i.imgur.com/TSeJdPB.png[/img]
+ • Frackin' Races Compatibility (Built in to Frackin' Races!)
+ • Frackin' Universe BYOS Compatibility (Via https://steamcommunity.com/sharedfiles/filedetails/?id=1687018817 )
+
+[img]https://i.imgur.com/aVdn4Mv.png[/img]
+[url=https://steamcommunity.com/workshop/filedetails/discussion/1614494395/2521353993646123863/][img]https://i.imgur.com/wi4wA3W.png[/img][/url]
+
+[url=https://github.com/XanTheDragon/StarboundOriModDerived/blob/master/Patches.md][img]https://i.imgur.com/rKvssd7.png[/img][/url]
+
+[img]https://i.imgur.com/HQgpSio.png[/img]
+[url=https://steamcommunity.com/workshop/filedetails/discussion/1614494395/1743356517523981563/][img]https://i.imgur.com/yjEbkqD.png[/img][/url]
+
+[url=https://steamcommunity.com/workshop/filedetails/discussion/1614494395/1743356517523977015/][img]https://i.imgur.com/JZEBZ9e.png[/img][/url]
+
+[u][h1]Remember to rate the mod! Your like (or dislike) lets me know what I'm doing right and wrong.[/h1][/u]
