@@ -1,0 +1,7 @@
+{
+  "name" : "spiritguardiandoublejump",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+  "animationConfig" : "spiritguardiandoublejump.animation",
+  "scripts" : [ "spiritguardiandoublejump.lua" ]
+}

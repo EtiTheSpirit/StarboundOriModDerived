@@ -1,0 +1,6 @@
+{
+  "name" : "spiritguardiancore",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+  "scripts" : ["spiritguardiancore.lua"]
+}

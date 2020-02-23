@@ -1,0 +1,6 @@
+{
+  "name" : "spiritguardiannofalldamage",
+  "effectConfig" : {},
+  "defaultDuration" : 1.0,
+  "scripts" : ["spiritguardiannofalldamage.lua"]
+}

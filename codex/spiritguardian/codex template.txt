@@ -5,7 +5,10 @@
 	"description" : "",
 	"icon" : "",
 	"contentPages" : [
-		
+		// for vanilla codex
+	],
+	"longContentPages" : [
+		// for XCustomCodex
 	],
 	"itemConfig" : {
 		"rarity" : "common",

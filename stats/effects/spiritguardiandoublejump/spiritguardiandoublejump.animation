@@ -1,0 +1,5 @@
+{
+  "sounds" : {
+    "jumpSounds" : ["/sfx/humanoid/seinDoubleJumpsA.ogg", "/sfx/humanoid/seinDoubleJumpsB.ogg", "/sfx/humanoid/seinDoubleJumpsC.ogg", "/sfx/humanoid/seinDoubleJumpsD.ogg", "/sfx/humanoid/seinDoubleJumpsE.ogg"]
+  }
+}

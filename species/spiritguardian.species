@@ -9,6 +9,7 @@ The guardians and the Tree are unified with a unique energy that travels through
 
 The most famous of their kind is ^cyan;Ori^reset;, who, with the help of ^#00FF00;Sien^reset;, ^#99BBFF;The Spirit Tree^reset;'s Light, saved Nibel from the misguided will of ^#FF00FF;Kuro^reset;, who sought genocide after after the death of her children."
   },
+  "humanoidConfig" : "/species/spiritguardianbodycfg.config",
   "humanoidOverrides" : {"bodyFullbright" : true},
   "nameGen" : [ "/species/ancestraltrees.config:names", "/species/ancestraltrees.config:names" ],
   "ouchNoises" : [ "/sfx/humanoid/seinBadlyHurtRegularA.ogg", "/sfx/humanoid/seinBadlyHurtRegularB.ogg", "/sfx/humanoid/seinBadlyHurtRegularC.ogg", "/sfx/humanoid/seinBadlyHurtRegularD.ogg", "/sfx/humanoid/seinBadlyHurtRegularE.ogg" ],
