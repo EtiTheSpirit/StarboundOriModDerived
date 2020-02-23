@@ -2,10 +2,19 @@
 
 Here you can see the updates made to the mod.
 
+# Version 1.8.0
+Released 23 Feb 2020 at 1:04 AM Central
+
+```diff
++ Added natural (vanilla) speed buffs, jump buffs, and no fall damage buffs. These are no longer reliant on Frackin' Races.
++ Added three new effects `spiritguardiannofalldamage` `spiritguardiancore` and `spiritguardiandoublejump` (broken)
+* Huge tweaks to Frackin' Races stats. See FrackinRacesStatGuide.MD for more information.
+```
+
+***
 # Version 1.7.1
 Released 15 Feb 2020 at 5:25 PM Central
 
-***
 ```diff
 + Added XModConfigProxy which should resolve the errors users were getting due to not having XModConfig
 + Added a one-off message to encourage users to actually install XModConfig (since it's really handy)
