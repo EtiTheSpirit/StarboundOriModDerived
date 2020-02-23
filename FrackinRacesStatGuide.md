@@ -9,28 +9,36 @@ Their physical movement abilities do grant them the ability to defend themselves
 Most abilities in the source game are oriented to mobility. Refer to this YouTube video for an example of mobility: https://youtu.be/tEm3Ndz87Zw
 
 ```diff
+* DIET:
+HERBIVORE
+
 * MOBILITY:
 + Bonus: +20% Move Speed [Vanilla]
 + Bonus: +20% Jump Height [Vanilla]
-+ Bonus: Fall Damage Immunity [Vanilla]
-+ Bonus: Mud Slow Immunity [Vanilla]
-+ Bonus: Jungle Slow Immunity
+
+* STAT IMMUNITIES:
++ Jungle Slow Immunity
++ Mud Slow Immunity [Vanilla]
++ Clay Slow Immunity
++ Fall Damage Immunity [Vanilla]
 
 * DAMAGE:
 + Bonus: +10% Resistance to Shadow Damage
 + Bonus: +10% Resistance to Cosmic Damage
 + Bonus: +10% Resistance to Cold Damage
 - Weakness: -20% Maximum Health
-- Weakness: -30% Resistance to Physical Damage
-- Weakness: -30% Resistance to Toxins
-- Weakness: -30% Resistance to Radioactivity
-- Weakness: -10% Resistance to Electricity
-- Weakness: -10% Resistance to Fire
+- Weakness: -15% Resistance to Physical Damage
+- Weakness: -23% Resistance to Toxins
+- Weakness: -23% Resistance to Radioactivity
+- Weakness: -23% Resistance to Electricity
+- Weakness: -23% Resistance to Fire
 
 * MISC:
 + Bonus: Bioluminescent [Vanilla]
++ Bonus: Passive Health Regeneration
 + Bonus: +30% Maximum Energy
-- Weakness: 107% Food Delta (increased from Bonus: 80%)
++ Bonus: +10% Longer Lasting Food
+- Weakness: -20% Stomach Size
 
 * BIOMES: JUNGLE, FOREST, BOG, ARBOREAL
 + Bonus: +15% Resistance (All Damage)
