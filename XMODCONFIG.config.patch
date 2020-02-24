@@ -15,7 +15,7 @@
 					"enforceType" : true,
 					"display" : {
 						"name" : "Enable event messages",
-						"description" : "If enabled, your SAIL will display a message and give you a quest (with no requirements, so it's just a free reward) every March 11 to recognize the anniversary of Ori the Game."
+						"description" : "If enabled, and if it's March 11, your SAIL will send a message to recognize the anniversary of Ori the Game."
 					}
 				},
 				{
@@ -24,7 +24,7 @@
 					"enforceType" : true,
 					"display" : {
 						"name" : "Use Sein sounds",
-						"description" : "If enabled, event messages will also play one of Sein's voice sound effects. This is disabled by default since they are quite unexpected and more of a surprise than a cohesion feature."
+						"description" : "If enabled, event messages will also play one of Sein's voice sound effects. This is disabled by default since they are quite surprising. It also doesn't match the fact that the SAIL is a Spirit."
 					}
 				},
 				{
@@ -33,7 +33,7 @@
 					"enforceType" : true,
 					"display" : {
 						"name" : "^#FF1111;[Debug] ^reset;Always run events",
-						"description" : "If enabled, the mod will behave as if the date is March 11 no matter what, causing the birthday message to display every time the player spawns."
+						"description" : "If enabled, the mod will behave as if the date is March 11 no matter what, causing the anniversary message to display every time the player spawns or loads somewhere new."
 					}
 				}
 			]

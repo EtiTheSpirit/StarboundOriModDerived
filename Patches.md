@@ -2,6 +2,15 @@
 
 Here you can see the updates made to the mod.
 
+# Version 1.8.3
+Released 24 Feb 2020 at 2:21 AM Central
+
+```diff
+* Fixed a bug causing passive events to not work. While this bug was not observable (unless you enabled debug switches via XModConfig), it is fixed nonetheless.
+* Changed the description of the passive event config flag.
+```
+
+***
 # Version 1.8.2
 Released 23 Feb 2020 at 9:04 PM Central
 
@@ -12,7 +21,6 @@ Released 23 Feb 2020 at 9:04 PM Central
 ```
 
 ***
-
 # Version 1.8.1
 Released 23 Feb 2020 at 6:30 PM Central
 
@@ -21,7 +29,6 @@ Released 23 Feb 2020 at 6:30 PM Central
 ```
 
 ***
-
 # Version 1.8.0
 Released 23 Feb 2020 at 1:04 AM Central
 
