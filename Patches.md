@@ -2,6 +2,15 @@
 
 Here you can see the updates made to the mod.
 
+# Version 1.9.0
+Released 23 Feb 2020 at 6:30 PM Central
+
+```diff
++ Brand new (slightly less shit) respawn cinematic. Will be refined later:tm:.
+```
+
+***
+
 # Version 1.8.0
 Released 23 Feb 2020 at 1:04 AM Central
 
