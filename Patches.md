@@ -2,7 +2,18 @@
 
 Here you can see the updates made to the mod.
 
-# Version 1.9.0
+# Version 1.8.2
+Released 23 Feb 2020 at 9:04 PM Central
+
+```diff
++ New graphics for Spirit Well teleporters. They are no longer super blue, and look a bit more like the normal game models.
+* Fixed a bug causing tails to disappear when walking backwards.
+* Tweaked mobility to make it not so difficult to jump onto narrow platforms. Holding shift while jumping onto these is advised.
+```
+
+***
+
+# Version 1.8.1
 Released 23 Feb 2020 at 6:30 PM Central
 
 ```diff
