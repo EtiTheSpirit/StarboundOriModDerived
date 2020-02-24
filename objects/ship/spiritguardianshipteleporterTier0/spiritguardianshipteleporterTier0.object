@@ -1,21 +1,22 @@
 {
   "objectName" : "spiritguardianshipteleporterTier0",
-  "colonyTags" : ["spiritguardian"],
-  "printable" : false,
+  "colonyTags" : ["misc", "spiritguardian"],
   "rarity" : "Common",
-  
-  "category" : "decorative",
-  "description" : "Trusty teleporter, what would we do without you?",
-  "shortdescription" : "Teleporter",
-  "race" : "spiritguardian",
-  "apexDescription" : "The ship's teleporter. I need to power it up.",
-  "avianDescription" : "The teleporter If only this one was powered up.",
-  "floranDescription" : "Ship teleporter. This one dead.",
-  "glitchDescription" : "Disappointed. A teleporter without power. I need to power it up.",
-  "humanDescription" : "The teleporter Too bad it isn't powered up.",
-  "hylotlDescription" : "This teleporter is off.",
-  "novakidDescription" : "Ship's teleporter. I need to power her up",
-  "spiritguardianDescription" : "My teleporter has no power. I should find a way to recharge it.",
+  "description" : "A personal teleporter, connects to bookmarked locations. \n^red;Destroyed when broken.",
+  "shortdescription" : "Spirit Guardian Teleporter",
+  "price" : 3000,
+  "printable" : false,
+
+  "apexDescription" : "A personal teleporter. Quite functional! Yet, this one appears to be made of stone. It also lacks power.",
+  "avianDescription" : "I love the whoosh of my feathers when I teleport! Except, this one's not working.",
+  "floranDescription" : "Perssonal teleporter is made of rock! Doess not work though.",
+  "glitchDescription" : "Intrigue. This teleporter appears to be made of stone. It is also without power.",
+  "humanDescription" : "A personal teleporter! Looks like it's made outta rocks. I wonder how it's powered?",
+  "hylotlDescription" : "A personal teleporter, it sports a stone-carved design. It does not appear to work.",
+  "novakidDescription" : "As teleporters go, this sure is fancy lookin'! Doesn't seem to be workin' though...",
+  "spiritguardianDescription" : "A teleporter. It's modelled after a Spirit Well! It's not energised, though.",
+
+  "category" : "teleporter",
   "objectType" : "loungeable",
   "sitFlipDirection" : true,
   "sitOrientation" : "lay",
@@ -23,24 +24,32 @@
   "sitEmote" : "sleep",
   "sitStatusEffects" : [ ],
   "sitEffectEmitters" : [ "sleepbubbles" ],
-  "inventoryIcon" : "teleportericonTier0.png",
+	
+  "inventoryIcon" : "teleportericon.png",
   "orientations" : [
     {
-      "image" : "spiritguardianshipteleporterTier0.png:<color>",
+      "imageLayers" : [ { "image" : "spiritguardianshipteleporterTier0.png:<color>"} ],
+
       "imagePosition" : [-32, 0],
       "frames" : 1,
       "animationCycle" : 0.5,
+
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
       "collision" : "solid",
-      "collisionSpaces" : [ [-2, 0], [-1, 0], [0, 0], [1, 0], [-2, 9], [-1, 9], [0, 9], [1, 9] ],
-      "sitPosition" : [-8, 8]
+      "collisionSpaces" : [ [-4, 0], [-3, 0], [-2, 0], [-1, 0], [0, 0], [1, 0], [2, 0], [3, 0], [4, 0] ]
     }
   ],
+
   "animation" : "/objects/noisy/noisy.animation",
+
   "scripts" : [
     "/objects/noisy/noisy.lua"
   ],
   
-  "sounds" : [ "/sfx/interface/clickon_error.ogg" ]
+  "sounds" : [ "/sfx/interface/clickon_error.ogg" ],
+
+  "soundEffect" : "/sfx/objects/shipengine.ogg",
+  "soundEffectRangeMultiplier" : 1.5
 }
+

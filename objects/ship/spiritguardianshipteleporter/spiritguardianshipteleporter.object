@@ -1,23 +1,29 @@
 {
   "objectName" : "spiritguardianshipteleporter",
-  "colonyTags" : ["spiritguardian"],
+  "colonyTags" : ["misc", "spiritguardian"],
+  "rarity" : "Legendary",
+  "description" : "A personal teleporter, connects to bookmarked locations. \n^red;Destroyed when broken.",
+  "shortdescription" : "Spirit Guardian Teleporter",
+  "price" : 3000,
   "printable" : false,
-  "rarity" : "Common",
-  "description" : "Trusty teleporter, what would we do without you?",
-  "shortdescription" : "Teleporter",
-  "race" : "spiritguardian",
-  "apexDescription" : "The ship's teleporter. Teleporting feels like riding a rollercoaster at the speed of light.",
-  "avianDescription" : "The teleporter Teleporting feels like flying.",
-  "floranDescription" : "Ship teleporter. Floran feel confusssed during teleport.",
-  "glitchDescription" : "Smug. A teleporter. I am able to enter a sleep mode during the teleport process.",
-  "spiritguardianDescription" : "The teleporter. It's modelled after a Spirit Well.",
-  "hylotlDescription" : "A teleporter. Teleporting feels like diving into the ocean from a mountain top.",
-  "novakidDescription" : "Ship's teleporter. Let's take her for a spin",
-  "category" : "light",
-  "lightColor" : [99, 132, 153],
+
+  "apexDescription" : "A personal teleporter. Quite functional! Yet, this one appears to be made of stone.",
+  "avianDescription" : "I love the whoosh of my feathers when I teleport!",
+  "floranDescription" : "Perssonal teleporter is made of rock!",
+  "glitchDescription" : "Intrigue. This teleporter appears to be made of stone.",
+  "humanDescription" : "A personal teleporter! Looks like it's made outta rocks.",
+  "hylotlDescription" : "A personal teleporter, it sports a stone-carved design.",
+  "novakidDescription" : "As teleporters go, this sure is fancy lookin'!",
+  "spiritguardianDescription" : "A teleporter. It's modelled after a Spirit Well.",
+
+  "objectType" : "teleporter",
+  "category" : "teleporter",
+  "lightColor" : [40, 100, 100],
+  "lightPosition" : [0, 1],
   "flickerDistance" : 0.2,
   "flickerStrength" : 0.05,
   "flickerTiming" : 4,
+  
   "particleEmitter" : {
     "emissionRate" : 3,
     "emissionVariance" : 0.5,
@@ -36,6 +42,7 @@
       "timeToLive" : 1.5,
       "layer" : "middle"
     },
+	
     "particleVariance" : {
       "initialVelocity" : [0, 5],
       "finalVelocity" : [0, 1],
@@ -43,19 +50,26 @@
       "size" : 0.5
     }
   },
+
   "interactAction" : "OpenTeleportDialog",
   "interactData" : "/interface/warping/shipteleporter.config",
+  
+  "soundEffect" : "/sfx/objects/shipengine.ogg",
+  "soundEffectRangeMultiplier" : 1.5,
+
   "inventoryIcon" : "teleportericon.png",
   "orientations" : [
     {
-      "imageLayers" : [ { "image" : "spiritguardianshipteleporter.png:<color>", "fullbright" : true }, { "image" : "spiritguardianshipteleporterlit.png:<color>" } ],
+      "imageLayers" : [ { "image" : "spiritguardianshipteleporter.png:<color>"}, { "image" : "spiritguardianshipteleporterlit.png:<color>", "fullbright" : true } ],
+
       "imagePosition" : [-32, 0],
       "frames" : 1,
       "animationCycle" : 0.5,
+
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
       "collision" : "solid",
-      "collisionSpaces" : [ [-2, 0], [-1, 0], [0, 0], [1, 0], [-2, 9], [-1, 9], [0, 9], [1, 9] ]
+      "collisionSpaces" : [ [-4, 0], [-3, 0], [-2, 0], [-1, 0], [0, 0], [1, 0], [2, 0], [3, 0], [4, 0] ]
     }
   ]
 }
