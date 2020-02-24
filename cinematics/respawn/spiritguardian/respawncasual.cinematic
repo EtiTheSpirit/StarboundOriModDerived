@@ -90,7 +90,7 @@
 				}
 			]
 		},
-	 {
+		{
 			"drawables" : [
 				{
 					"image" : "/cinematics/respawn/spiritguardian/layer1.png:<frame>"
@@ -133,21 +133,21 @@
 					"zoom" : 1.5,
 					"alpha" : 0,
 					"frame" : 0,
-					"position" : [478, 275]
+					"position" : [400, 650]
 				},
 				{
 					"timecode" : 4,
 					"zoom" : 1.5,
 					"alpha" : 1,
 					"frame" : 0,
-					"position" : [478, 275]
+					"position" : [400, 650]
 				},
 				{
 					"timecode" : 11.25,
 					"zoom" : 1.5,
 					"alpha" : 1,
 					"frame" : 0,
-					"position" : [478, 275]
+					"position" : [400, 650]
 				},
 				{
 					"timecode" : 12,
