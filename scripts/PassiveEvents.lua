@@ -2,13 +2,13 @@ require("/scripts/vec2.lua")
 require("/scripts/util.lua")
 require("/scripts/interp.lua")
 require("/scripts/xcore/LuaRadioMessage.lua")
-require("/scripts/xcore/InitializationUtility.lua")
 require("/scripts/xcore/XUtils.lua")
 require("/scripts/xmodcfg_util/XModConfigProxy.lua")
 
 local XModConfig
 
-local OLD_INIT_FUNC_LOCAL = init
+local OldInit = init
+local OldUpdate = update
 
 
 -- Naming convention:
@@ -34,6 +34,7 @@ local SEIN_CHATTER_SOUNDS = {
 }
 
 function init()
+	script.setUpdateDelta(2)
 	local Year, Month, Day = CurrentDate()
 	self.isOrisBirthday = (Month == 3 and Day == 11)
 	self.isXansBirthday = (Month == 7 and Day == 11)
@@ -66,7 +67,7 @@ function init()
 	})
 	
 	self.updateMessage = LuaRadioMessage:NewMessage({
-		text = "^yellow;[NEW OPTIONAL UPDATE] ^reset;The mod has been updated and now leverages ^orange;XModConfig^reset;. ^cornflowerblue;This allows you to enable or disable certain features of this mod. ^reset;You can find it on the Steam Workshop by searching ^orange;XModConfig^reset;.";
+		text = "^yellow;[NEW OPTIONAL UPDATE] ^reset;The Spirit Guardian has been updated and now leverages ^orange;XModConfig^reset;. ^cornflowerblue;This allows you to enable or disable certain features of this mod. ^reset;You can find it on the Steam Workshop by searching ^orange;XModConfig^reset;.";
 		persistTime = 10;
 		unique = true;
 		messageId = "modUpdate-2162020";
@@ -87,22 +88,23 @@ function init()
 	})
 	--]]
 	--self.hasDoneStuff = false
-	if OLD_INIT_FUNC_LOCAL then
-		OLD_INIT_FUNC_LOCAL()
+	if OldInit then
+		OldInit()
 	end
 end
 
-function postinit()
-	-- if self.tempPollMessage then
-		-- self.tempPollMessage:SendToEntityInWorld(entity, world)
-	-- end
-	
-	if player.species() ~= "spiritguardian" then return end
+local function postinit_pe()
+	sb.logInfo("postinit")
+	if player.species() ~= "spiritguardian" then 
+		sb.logInfo(player.species())
+		return
+	end
 	
 	XModConfig = TryGetXModConfig()
 	
 	local cfg
 	if XModConfig ~= nil then
+		sb.logInfo("XModConfig is installed.")
 		cfg = XModConfig:Instantiate("OriModRedux")
 	else
 		sb.logInfo("XModConfig is not installed.")
@@ -119,9 +121,9 @@ function postinit()
 		debugAlwaysSendEvent = cfg:Get("debugAlwaysRunMessage", false)
 	end
 	
-	--sb.logInfo("messages? " .. tostring(messagesEnabled))
-	--sb.logInfo("sein sounds? " .. tostring(useSeinSounds))
-	--sb.logInfo("always run? " .. tostring(debugAlwaysSendEvent))
+	sb.logInfo("messages? " .. tostring(messagesEnabled))
+	sb.logInfo("sein sounds? " .. tostring(useSeinSounds))
+	sb.logInfo("always run? " .. tostring(debugAlwaysSendEvent))
 	
 	local year = CurrentDate()
 	
@@ -132,6 +134,7 @@ function postinit()
 				self.oriBirthdayMessage.messageId = tostring(math.random())
 			end
 			self.oriBirthdayMessage:SendToEntityInWorld(entity, world)
+			sb.logInfo("Sending Ori Birthday Message.")
 			if useSeinSounds then 
 				if year == 2020 then
 					XUtils:PlaySound("/sfx/interface/sein/urgent/oriSpeechUrgentShortD.ogg", entity.position())
@@ -147,6 +150,15 @@ function postinit()
 			if useSeinSounds then XUtils:PlaySound(SEIN_CHATTER_SOUNDS.MEDIUM, entity.position()) end
 		end
 	end
+end
+
+function update(...)
+	if not HasDonePostInit then 
+		HasDonePostInit = true
+		postinit_pe()
+		script.setUpdateDelta(30)
+	end
+	OldUpdate(...)
 end
 
 function GetNumberWithEnding(Number)
@@ -183,3 +195,7 @@ function CurrentDate(z)
     local m = math.floor(mp + (mp < 10 and 3 or -9))
     return y + (m <= 2 and 1 or 0), m, d
 end
+
+
+-- Yes, this goes down here. Don't move it.
+-- require("/scripts/xcore/InitializationUtility.lua")
