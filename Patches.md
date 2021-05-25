@@ -5,7 +5,7 @@ Here you can see the updates made to the mod.
 # Version 1.8.3 Formal Decommission
 In effect 25 May 2021 at 4:45 PM Central
 
-The mod has been discontinued and unless decided otherwise, will no longer be worked on by me. Users are authorized to continue working on it granted they link back to this mod.
+The mod has been discontinued until further notice. Unless decided otherwise later down the line, will no longer be worked on by me. Users are authorized to continue working on it granted they link back to this mod.
 
 
 # Version 1.8.3
